@@ -11,4 +11,10 @@ import UIKit
 class CarCategoryCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var imgcategory: UIImageView!
     @IBOutlet weak var lblTitle: UILabel!
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        layer.cornerRadius = 10
+        clipsToBounds = true
+    }
 }
