@@ -36,7 +36,7 @@ class BroadcastViewController: UIViewController {
             
             //getting the notification trigger
             //it will be called after 5 seconds
-            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 15, repeats: false)
             
             //getting the notification request
             let request = UNNotificationRequest(identifier: "SimplifiedIOSNotification", content: content, trigger: trigger)

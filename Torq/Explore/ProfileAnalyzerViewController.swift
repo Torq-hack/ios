@@ -13,6 +13,8 @@ import SpriteKit
 class ProfileAnalyzerViewController: UIViewController {
 
     @IBOutlet var bubblesView: CSBubblesView!
+    @IBOutlet var finishButton: UIButton!
+    var numberSelected = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +25,24 @@ class ProfileAnalyzerViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        bubblesView.dataArray = ["Summer", "Aruba", "Australia", "Austria", "Bahamas", "Barbados",  "Belgium", "Belize",  "Bermuda",  "Brazil",  "Chile", "China", "Christmas Island", "Cocos (Keeling) Islands", "Colombia", "Costa Rica", "Cote d'Ivoire", "Croatia (Hrvatska)", "Cuba", "Cyprus", "Dominican Republic", "Egypt", "Faroe Islands", "Fiji",  "France", "Germany", "Greece"]
+        bubblesView.dataArray = ["Família",
+                                 "Independência",
+                                 "Livros",
+                                 "Cinema",
+                                 "Domir",
+                                 "Festas",
+                                 "Bares",
+                                 "Ambiente Rural",
+                                 "Ambiente Urbano",
+                                 "Praias",
+                                 "Futebol",
+                                 "Natação",
+                                 "Tênis",
+                                 "Passado",
+                                 "Presente",
+                                 "Futuro",
+                                 "Política",
+                                 "Religião"]
     }
     
     @IBAction func actionPressed(_ sender: UIButton) {
@@ -31,6 +50,11 @@ class ProfileAnalyzerViewController: UIViewController {
     
     @objc func bubbleWasSelected(notification: NSNotification) {
         print(notification.object as! String)
+        numberSelected += 1
+        if numberSelected == 5 {
+            finishButton.backgroundColor = #colorLiteral(red: 0.9176470588, green: 0.03137254902, blue: 0.1882352941, alpha: 1)
+            finishButton.isEnabled = true
+        }
     }
     
     @objc func bubbleWasDeselected(notification: NSNotification) {
