@@ -37,6 +37,7 @@
 		57A8332F217C110E001DDB7F /* SoundWave+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A8332E217C110E001DDB7F /* SoundWave+Helpers.swift */; };
 		57A86CCC217C34A300AC6183 /* CognitiveCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A86CCB217C34A300AC6183 /* CognitiveCameraView.swift */; };
 		57A86CCE217C3B9100AC6183 /* CarScanResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A86CCD217C3B9100AC6183 /* CarScanResultViewController.swift */; };
+		57ED9303217C6DDA004D0A13 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57ED9302217C6DDA004D0A13 /* Onboarding.storyboard */; };
 		71FA1293471ADDE64F6C3E83 /* Pods_Torq.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F76E4F780980BAA054F496 /* Pods_Torq.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,7 @@
 		57A83331217C19F0001DDB7F /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		57A86CCB217C34A300AC6183 /* CognitiveCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognitiveCameraView.swift; sourceTree = "<group>"; };
 		57A86CCD217C3B9100AC6183 /* CarScanResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarScanResultViewController.swift; sourceTree = "<group>"; };
+		57ED9302217C6DDA004D0A13 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 		70C13534AE9B38F2ADB8CFAB /* Pods-Torq.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Torq.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Torq/Pods-Torq.debug.xcconfig"; sourceTree = "<group>"; };
 		8219967CE7C4D18428BE0FF8 /* Pods-Torq.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Torq.release.xcconfig"; path = "Pods/Target Support Files/Pods-Torq/Pods-Torq.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +139,7 @@
 		57018EB3217BF8E600E65DCD /* Torq */ = {
 			isa = PBXGroup;
 			children = (
+				57ED9301217C6DC9004D0A13 /* Oboarding */,
 				3EB803E0217C30DC00CEF34A /* Models */,
 				57018EDA217BFC8200E65DCD /* Car Scan */,
 				57018ED8217BFC5C00E65DCD /* Analyzer */,
@@ -225,6 +228,14 @@
 			name = SoundWave;
 			sourceTree = "<group>";
 		};
+		57ED9301217C6DC9004D0A13 /* Oboarding */ = {
+			isa = PBXGroup;
+			children = (
+				57ED9302217C6DDA004D0A13 /* Onboarding.storyboard */,
+			);
+			path = Oboarding;
+			sourceTree = "<group>";
+		};
 		5D7C819387FD0718F89F3CF5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -304,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57018EBF217BF8E700E65DCD /* LaunchScreen.storyboard in Resources */,
+				57ED9303217C6DDA004D0A13 /* Onboarding.storyboard in Resources */,
 				57018EDC217BFCE400E65DCD /* CarScan.storyboard in Resources */,
 				3EC25669217C4414006CA7C5 /* CardView.xib in Resources */,
 				57018EBC217BF8E700E65DCD /* Assets.xcassets in Resources */,

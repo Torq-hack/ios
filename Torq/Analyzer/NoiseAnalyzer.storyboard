@@ -38,6 +38,7 @@
                         <viewLayoutGuide key="safeArea" id="vej-Ba-5v1"/>
                     </view>
                     <connections>
+                        <outlet property="cameraView" destination="RH2-IK-tHp" id="abv-b5-HdE"/>
                         <outlet property="waveView" destination="wS0-TB-Zvd" id="wF4-ZL-2cz"/>
                     </connections>
                 </viewController>

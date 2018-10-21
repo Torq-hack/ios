@@ -11,16 +11,19 @@ import SoundWave
 
 class NoiseAnalyzerViewController: UIViewController {
 
+    @IBOutlet var cameraView: CameraView!
     @IBOutlet var waveView: AudioVisualizationView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        cameraView.beginSession()
         waveView.audioVisualizationMode = .write
         waveView.meteringLevelBarWidth = 2
         waveView.meteringLevelBarInterItem = 1
         waveView.meteringLevelBarCornerRadius = 12
         waveView.gradientStartColor = UIColor.white
         waveView.gradientEndColor = UIColor.gray
+        
         AudioRecorderManager.shared.askPermission { (success) in
             self.configureNoiseDetection()
             Timer.scheduledTimer(withTimeInterval: 1, repeats: false, block: { (timer) in
