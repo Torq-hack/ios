@@ -16,11 +16,13 @@ class CarDataViewController: UIViewController {
     var car: Car!
     
     let categories: [CarCategory] = [
-        CarCategory(categoryId: "engine", category: "Motor", image: "carEngine"),
-        CarCategory(categoryId: "security", category: "Segurança", image: "seatbelt"),
-        CarCategory(categoryId: "visual", category: "Visual", image: "carvisual"),
-        CarCategory(categoryId: "gear", category: "Outros", image: "cargear"),
+        CarCategory(categoryId: "engine", category: "Motor", image: "engine-white"),
+        CarCategory(categoryId: "security", category: "Segurança", image: "bealt-white"),
+        CarCategory(categoryId: "visual", category: "Visual", image: "car-white-3"),
+        CarCategory(categoryId: "gear", category: "Outros", image: "engine_turbo"),
     ]
+    
+    let color = ["fc4f43", "7cc7a7", "84c5e4", "146c8f"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -74,6 +76,7 @@ extension CarDataViewController: UICollectionViewDataSource {
         if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CarCategoryCollectionViewCell", for: indexPath) as? CarCategoryCollectionViewCell {
             cell.lblTitle.text = category.category
             cell.imgcategory.image = UIImage(named: category.image!)
+            cell.backgroundColor = UIColor(hexString: color[indexPath.row])
             return cell
         } else {
             return UICollectionViewCell()
