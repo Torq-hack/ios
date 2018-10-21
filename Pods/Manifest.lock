@@ -1,22 +1,39 @@
 PODS:
+  - Alamofire (4.7.3)
+  - AlamofireImage (3.4.1):
+    - Alamofire (~> 4.7)
   - Charts (3.2.1):
     - Charts/Core (= 3.2.1)
   - Charts/Core (3.2.1)
   - Cosmos (17.0.0)
+  - Koloda (4.5.1):
+    - pop (~> 1.0)
+  - pop (1.0.12)
 
 DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
   - Charts
   - Cosmos (~> 17.0)
+  - Koloda
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
     - Charts
     - Cosmos
+    - Koloda
+    - pop
 
 SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AlamofireImage: 78d67ccbb763d87ba44b21583d2153500a195630
   Charts: f122fb70b19847fa5817d018b77d6c5a2296ab25
   Cosmos: 309e489f21ffc91a1eeecfebef7f817cd2fcfba6
+  Koloda: fc08984dc013b4d5aff3bd7265a8874e6784b5ef
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
 
-PODFILE CHECKSUM: 15f98347d6cdf8fb5e16612ab142c8690f5152cb
+PODFILE CHECKSUM: 24f0e6b6bfc6d95230a6d36cf08abf0ca3b66dd6
 
 COCOAPODS: 1.5.3

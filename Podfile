@@ -8,5 +8,8 @@ target 'Torq' do
   # Pods for Torq
   pod 'Cosmos', '~> 17.0'
   pod 'Charts'
+  pod 'Koloda'
+  pod 'Alamofire'
+  pod 'AlamofireImage'
 
 end

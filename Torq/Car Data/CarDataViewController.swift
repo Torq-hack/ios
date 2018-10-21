@@ -43,7 +43,7 @@ class CarDataViewController: UIViewController {
     }
     
     @IBAction func showPriceHistory(_ sender: Any) {
-        performSegue(withIdentifier: "segueToCarPriceHistoryViewController", sender: Car(name: "Meu Carro"))
+        performSegue(withIdentifier: "segueToCarPriceHistoryViewController", sender: nil)
     }
 }
 

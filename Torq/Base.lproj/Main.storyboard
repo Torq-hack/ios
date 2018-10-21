@@ -53,11 +53,14 @@
         <scene sceneID="QTh-Te-U0e">
             <objects>
                 <viewControllerPlaceholder storyboardName="Explore" id="lWW-uV-fZh" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="eo5-LR-y7O"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="explorartabbar3" selectedImage="explorartabbar3" id="eo5-LR-y7O"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ism-pM-T78" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1069" y="252"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="explorartabbar3" width="24" height="24"/>
+    </resources>
 </document>

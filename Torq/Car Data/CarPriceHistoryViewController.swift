@@ -18,7 +18,7 @@ class CarPriceHistoryViewController: UIViewController {
   
     override func viewDidLoad() {
         super.viewDidLoad()
-        lblTitle.text = car?.name
+        lblTitle.text = car?.model
         self.setDataCount(12)
     }
     
