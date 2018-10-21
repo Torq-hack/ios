@@ -16,6 +16,7 @@ class ProfileAnalyzerViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.isNavigationBarHidden = true
         NotificationCenter.default.addObserver(self, selector: #selector(ProfileAnalyzerViewController.bubbleWasSelected), name: NSNotification.Name(rawValue: "BubbleWasSelected"), object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(ProfileAnalyzerViewController.bubbleWasDeselected), name: NSNotification.Name(rawValue: "BubbleWasDeselected"), object: nil)
     }
