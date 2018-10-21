@@ -31,6 +31,11 @@ class CarScanResultViewController: UIViewController {
     
     var car: Car!
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.title = "Registro de Carro"
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         brandLabel.text = "\(brand!)"
