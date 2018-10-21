@@ -8,23 +8,37 @@
 
 import UIKit
 
-class ActivityViewController: UIViewController {
+class ActivityViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
 
-        // Do any additional setup after loading the view.
+    @IBAction func changeCar(_ sender: Any) {
+       showCarOptions()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func showCarOptions() {
+        let alertController = UIAlertController(
+            title: "Meus Carros",
+            message: nil,
+            preferredStyle: UIAlertController.Style.actionSheet)
+        
+        let car1 = UIAlertAction(title: "Honda Civic", style: UIAlertAction.Style.default) { (action) in
+            
+        }
+        
+        let car2 = UIAlertAction(title: "Toyota Corolla", style: UIAlertAction.Style.default) { (action) in
+            
+        }
+        
+        let cancelAction = UIAlertAction(title: "Cancelar", style: UIAlertAction.Style.cancel) { (action) in
+            
+        }
+        
+        alertController.addAction(car1)
+        alertController.addAction(car2)
+        alertController.addAction(cancelAction)
+        present(alertController, animated: true) {}
     }
-    */
-
 }

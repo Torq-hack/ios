@@ -26,7 +26,6 @@ class ExploreViewController: UIViewController {
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        reloadCarsFromServer()
     }
 
     func reloadCarsFromServer() {
@@ -35,7 +34,6 @@ class ExploreViewController: UIViewController {
             do {
                 let decoder = JSONDecoder()
                 self.cars = try decoder.decode([Car].self, from: data)
-                print("Data: \( self.cars )")
                 DispatchQueue.main.async{
                     self.btnReverse.isHidden = false
                     self.outCardView.isHidden = true

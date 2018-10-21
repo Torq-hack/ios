@@ -27,7 +27,6 @@
 		0EF71E2A49FD704CAB2A51DB5700F56F /* RadarChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ED701E837A031CCA1D678F19E288B2 /* RadarChartData.swift */; };
 		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D76E7E1689F5736D2F7E635B264AA8D /* Timeline.swift */; };
 		12BBF9613D7B8B92658A996DBA2F0BA3 /* HorizontalBarChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3237A1B23371A34EE6AC130A794FE6 /* HorizontalBarChartRenderer.swift */; };
-		12F90E6E9739CB5B1A7D5C727BDB1DC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB933B286665F829E447407260968D2 /* UIKit.framework */; };
 		13D07044A90082C82EFE9796E9486BB6 /* ChartDataEntryBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DD8385C9466AA30644149800620E85 /* ChartDataEntryBase.swift */; };
 		15608D1D8E70D220782D2BDA26BE7EC6 /* ChevronUpShapeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62116D9AB34E4ED37ED1517FFA835D8 /* ChevronUpShapeRenderer.swift */; };
 		15755E802E7050CC8986B65EDEB32F48 /* RadarHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E194C0E206E5605C259F289E8839DA43 /* RadarHighlighter.swift */; };
@@ -47,10 +46,11 @@
 		256051B5A5700801E813CA878B5C214B /* Charts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD701B68026264BE5DA859C7B7225C42 /* Charts-dummy.m */; };
 		2582DE757C71AA7587A1E244B761EE01 /* KolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D365B4CEB6A3065F7E8FA7F0E6200053 /* KolodaView.swift */; };
 		25DFA72039CBA011EBA738AA73084A8E /* CosmosSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D868B0DD1FB2EEC65A0C8243F6393F /* CosmosSize.swift */; };
-		26D94A340D58D11C1C6D63AA5069F9ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C573E4B3F45924C6FA1766246491C6 /* Foundation.framework */; };
+		26479B07464784F3BF8C0853CA049976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4294AB6C3F290AFE198901B6F86D4494 /* Foundation.framework */; };
 		27996F52CCABBD6D0874B79D1B913598 /* ImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DE1F5349EBADDA016E70CCDF58DFDE /* ImageFilter.swift */; };
 		27DC407E6B10E7A42336C7DAA61D7D03 /* BubbleChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4525E3D5C9F4CBC254B9C7BB288571F5 /* BubbleChartData.swift */; };
 		285C84A0D641612DF56FD4585BBADC37 /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = E1540086BD542EFD4C0DB6D722C3F5B2 /* POPBasicAnimation.mm */; };
+		28E9D842CA0C883D1D0E15A804B14267 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4294AB6C3F290AFE198901B6F86D4494 /* Foundation.framework */; };
 		2958F79C1DE0538C8514446BCA594AD6 /* CombinedChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF165133ACC9BAF168A234CB6A00F3 /* CombinedChartRenderer.swift */; };
 		2AB9DAF8BC8239ADE68C7583FE8EB296 /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2F62C73035EA53A456D6E48F34D0F5EE /* POPAnimationRuntime.mm */; };
 		2AE53AEC7941798785FC1DE01D66BE8E /* IMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DF8C2B04B5AB30DD92908FAF82ADD0 /* IMarker.swift */; };
@@ -70,7 +70,6 @@
 		3A0FFACCFB563C1EB4DE167E24B4F5F0 /* IHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3DCEC978C47A86A250537D95417D74 /* IHighlighter.swift */; };
 		3A45433EE26D7132F57CE5374AB76CCD /* Highlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D2D5E0A15616E34EEE392D943B6FF8 /* Highlight.swift */; };
 		3A8B83CF63203A0A8AFE3A24E876FDC6 /* IChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6D6A7CE1B67A87E185F05A9962392B /* IChartDataSet.swift */; };
-		3B9D62B42F8BEA19309D967D9BBFF28E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C573E4B3F45924C6FA1766246491C6 /* Foundation.framework */; };
 		3CE0DD0F8C871EA91821B0BC30ADC988 /* ZoomViewJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5369CB0084A6C17857271DBF6A0128D7 /* ZoomViewJob.swift */; };
 		3DF6ECF23D38E7DA5B5B2B43707F2F4D /* Cosmos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE59225646648A1BCB5F87F4349B6CE8 /* Cosmos-dummy.m */; };
 		3EAE5BB09FA8870C0B50A0D6B7CC1F0B /* DataApproximator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54F89EE0389700247AAE913232CCCA8 /* DataApproximator.swift */; };
@@ -119,17 +118,19 @@
 		673FBF8ADFB223A463CC29B508A593C7 /* POPDecayAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 99AA7D83E09C7EB6312DBECCBFC5AB80 /* POPDecayAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68B34B405864463B771D9ADB6E1D5D14 /* MarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2A1A62BB296B3716880C2CF8811A6F /* MarkerView.swift */; };
 		69AE40CF8D807BB669EC80A5084FB2E1 /* Pods-Torq-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 857BC8F6C3C866FBC9733A9E3BC35077 /* Pods-Torq-dummy.m */; };
+		69F66BDF43986A0306D1B087B1637D06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4294AB6C3F290AFE198901B6F86D4494 /* Foundation.framework */; };
 		6F48A5EC743410883CE3776C0148CB8E /* IShapeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF46D2E6A191A1FD4C339BDC4B6FD9EA /* IShapeRenderer.swift */; };
 		6F8C0F29B3F16F95DE99F64BFE5D97FA /* ScatterChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2802CFB260C84EF0E44F65B81DFCBDBF /* ScatterChartRenderer.swift */; };
 		718DC28B124529DADAD5841C40AEB549 /* SoundWave-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE319A0E200DB58BBB5DF689E79F3FCC /* SoundWave-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71A718E3B5D53FA0836FB8C9E6510ABA /* POPAnimatableProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 614D9EABBFDA233DBC7D0624A66A7576 /* POPAnimatableProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71A8930AC23813199AC1DCDE989CACED /* CrossShapeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC11F03216C61EAD422840F5D2F8722 /* CrossShapeRenderer.swift */; };
+		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4294AB6C3F290AFE198901B6F86D4494 /* Foundation.framework */; };
 		73BED6DAA29920631BD1CFC46AFEB1DF /* IRadarChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4136250E60E1B64E8AA28B5A94C8CEB /* IRadarChartDataSet.swift */; };
+		749FE23ED589F816864B98310C3DBBE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720F35AA2DDE6E498DEA67CEE1F8DD2C /* UIKit.framework */; };
 		7642DF9D49A934E745A094E4E4FC4770 /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7225C59C6D7348AD9D0CB4A2BBD87774 /* POPGeometry.mm */; };
 		78FC7871187C9EF3AC35794D2CA84E8E /* Fill.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DAD86218A685D02FD35234BF1BC61B /* Fill.swift */; };
 		7932EB23F954C118B69004A1E5C9D65B /* POPSpringSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B483D01D94BBD8DB09105BF3AC95FB /* POPSpringSolver.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7A2443B101A88A05EA78BF12AEB18526 /* pop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9264EB05256D9E4F8AEC07D2CD97F420 /* pop-dummy.m */; };
-		7AD1F65ACDDF6BC7598628774DDF7E00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C573E4B3F45924C6FA1766246491C6 /* Foundation.framework */; };
 		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9190D9172B30C6265DE712C67662EA /* SessionDelegate.swift */; };
 		7B9667B7F584E5F5230473B732E0CB00 /* PieHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C0FD1EAAAAED6F32D25B074F5124B /* PieHighlighter.swift */; };
 		7CC5A43D7E1372EB6292FCBC0151A36E /* CosmosAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74766D6CBE49B1C90C5671441982391D /* CosmosAccessibility.swift */; };
@@ -138,10 +139,8 @@
 		7DA218CB14437AE22410143F908B9154 /* MarkerImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F75482AC2D7825803B6250EA443A1D8 /* MarkerImage.swift */; };
 		7DAE666ED1F890F60677F8567D048800 /* POPGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D49336D9F8DECD37ACC0AAD2FB0A3BE /* POPGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EA4CF7D3150AD7B92ED267BDFC9173E /* POPAnimationEventInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7413CD67298BC3985380F3C274BE83FA /* POPAnimationEventInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8000F702FA4385B4CE4CA9C38CE70B1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C573E4B3F45924C6FA1766246491C6 /* Foundation.framework */; };
 		82DA75B950B85840132706B1A5626352 /* AudioVisualizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ACB316578CF0B480CA81340660D4DD /* AudioVisualizationView.swift */; };
 		82FF299760F6D84BB54E928698AF6C76 /* POPAnimationRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 320A1A9E6195E3880D2CC36D196E3ACD /* POPAnimationRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		834F4D9819C6010E611A7E151B8899C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C573E4B3F45924C6FA1766246491C6 /* Foundation.framework */; };
 		8525ADFC1275F005AD52FC613574B75F /* POPDecayAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = DCE9155BCE9EAD75273353318F91A16A /* POPDecayAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		85F66A71CF23FE205B807D4E5921788E /* CircleShapeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894562E8889360E40B4A4684F59F57AE /* CircleShapeRenderer.swift */; };
 		87DE26FA5674DB6E0AA9A80EEE92C78A /* BarChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0209BF8D2F870F5A67E2620879FE7E69 /* BarChartDataProvider.swift */; };
@@ -180,6 +179,7 @@
 		A68442BA868C19831087BBDFAE592FF1 /* BarChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF4F1C04FA16B7E5FE293461A0C7063 /* BarChartData.swift */; };
 		A7688A8DE350643733965BE355031052 /* BarChartDataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C86914CFA3367BADF65435534EA018 /* BarChartDataEntry.swift */; };
 		A835F64FE2B477B2DB5E7D7B59839FFF /* ChartHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0782AD0A1B4BA350BF12A3BEA801B85B /* ChartHighlighter.swift */; };
+		A8D0F1C3405DD1451822DBEDCB4925BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4294AB6C3F290AFE198901B6F86D4494 /* Foundation.framework */; };
 		A8F1CFB23C765B4A5822B4404615CAD3 /* ChartAnimationEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD41B280D57F51626BB8F69009FAF5 /* ChartAnimationEasing.swift */; };
 		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D24E6A23DB1A8ACE552515CEAF36BB9B /* Alamofire-dummy.m */; };
 		AA1231D7729F2B3B70E7AE715E40D11D /* BarHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCFE7B5B1F4402FE3B3CBEBADA7DCE1 /* BarHighlighter.swift */; };
@@ -228,32 +228,33 @@
 		C71F35474D5558FF905ABD663EE8F1FC /* KolodaCardStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE945CA8597D00B94339AD220AA4000 /* KolodaCardStorage.swift */; };
 		C73BF39A4CCC3E450E102C23027F8FF8 /* UIButton+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3A8FB4C7086C58FCB2D4067372749 /* UIButton+AlamofireImage.swift */; };
 		C79D2F2FCE3EF9B31D1222E0C4A59DC5 /* RightToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72424D9433655C4D0A1770CE3ED0EA58 /* RightToLeft.swift */; };
+		C8B4119CE3F578C7FDD78AD1EC996115 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4294AB6C3F290AFE198901B6F86D4494 /* Foundation.framework */; };
 		C913963FC5525842C4FB1ED25BDAA6DE /* LineRadarRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC99001702D71788F276C506E3F8EB1 /* LineRadarRenderer.swift */; };
 		C95B658D689425ED9DAA95EB479B44A6 /* StarLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EC6AC78F1B472C966E14859F32AD4 /* StarLayer.swift */; };
 		C9770A6ABE804D876F8B217BCE4626F9 /* RadarChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8D5CCBA4DCBD2A8E3EAB5E9AEEFCCC /* RadarChartRenderer.swift */; };
 		C99A9F942F73CC484A1D9694E5C0BD7C /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 06889AD073BA3A2F54EED189D27E9D11 /* POPLayerExtras.mm */; };
 		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119D74561B526C99F25B2DC35D26FD72 /* Response.swift */; };
+		CB94D36793B25D17761CCE432E2C2330 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4294AB6C3F290AFE198901B6F86D4494 /* Foundation.framework */; };
 		CBC692A69545F6DD83B98138DAFBCD8F /* IndexAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85CB6DE1F9572592D908371D22AE612 /* IndexAxisValueFormatter.swift */; };
 		CD3AD6AD1CF60A445063C828B0461E3D /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = 865B5607C7889C8601B63B0E8EE081B3 /* POPAnimatableProperty.mm */; };
 		CE07CA01FDF383F796D1FA64E5A263C3 /* POPMath.h in Headers */ = {isa = PBXBuildFile; fileRef = B4C51108E191B41517BD3E23F0195086 /* POPMath.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CE47ED7DDE80AE4129C63BF207BA1168 /* LineScatterCandleRadarRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738F0D6E4F0E45BCD224F5FEBC389549 /* LineScatterCandleRadarRenderer.swift */; };
 		CEB764029C2EE19B440DF61D922E85B4 /* POPBasicAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E579F38F09885853416A8F97089AF8 /* POPBasicAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF4DFD6D4CE5A99E1E68C8B22985D410 /* ChartBaseDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AE24D5362D00582D222ACC5560B77 /* ChartBaseDataSet.swift */; };
-		CFEDA7D507C506864C7F3BD287B72134 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C573E4B3F45924C6FA1766246491C6 /* Foundation.framework */; };
-		D018F028E4B59286F13C48DCFD2FC152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C573E4B3F45924C6FA1766246491C6 /* Foundation.framework */; };
 		D04CA03C6C95114F5A0F31FE6A1E8D07 /* LegendRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E172373234EF936C7830E73E0240E79 /* LegendRenderer.swift */; };
 		D052DA6BFAE21C6AC04412B26ED1CEC1 /* Bubbles.podspec in Sources */ = {isa = PBXBuildFile; fileRef = 62369D43057182BDCAC4EF5F14A18772 /* Bubbles.podspec */; };
 		D060EC394FE11B4B004FECF2D1C07AB6 /* ILineChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2154D6CC00A0612D132707FCAF658 /* ILineChartDataSet.swift */; };
 		D21586E91691836DC3FFB18D6A95D436 /* CSBubblesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FEA164F5E57DAA79634BA5D10DAEAC /* CSBubblesView.swift */; };
 		D4817764CE92154DF2934AA6CA4657AA /* RadarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA44D530D91286F70BFF006EF595255 /* RadarChartView.swift */; };
-		D54AD2E7B275B428B100E19DCC357DED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C573E4B3F45924C6FA1766246491C6 /* Foundation.framework */; };
 		D694BE38FA9892729647D0C9A2C02798 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870C776B70BC9A66CB898E878367ABB /* Renderer.swift */; };
 		D88AC9929DC83A76F12C9C504B2641AE /* POPVector.h in Headers */ = {isa = PBXBuildFile; fileRef = B645238B29FE3CFF3984911675D41CBE /* POPVector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D976C2F3D92C2AF0738273BEC9A8DCF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4294AB6C3F290AFE198901B6F86D4494 /* Foundation.framework */; };
 		D9E544B8CB42DA8DD44838F83610D8E0 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58F9EFF5920F5EDA4F104DE30770B00 /* ImageCache.swift */; };
 		DACF26E7166BF973FD69D687C9F3F9E0 /* LegendEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB6CA71FA666773694C3740313E96F0 /* LegendEntry.swift */; };
 		DD1E9C4E9745C586D9B86C06FC6B14CD /* CombinedChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759F1FF2111BAF28CB56E7912A30C438 /* CombinedChartData.swift */; };
 		DDF5CEFEF25489FF2CD0EE7366A4A0FB /* SquareShapeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC9C3BB1F80D388837BDDF03707E82 /* SquareShapeRenderer.swift */; };
 		DE5E91A47C1BF6869DF17747D61C2FF1 /* Cosmos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC2C05C515F32DECF59CB27AB5FFC33 /* Cosmos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFCB7FD0E1B3082C076C2DBAEC996646 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4294AB6C3F290AFE198901B6F86D4494 /* Foundation.framework */; };
 		DFE4AEB3CC7B085E022B2FDEDC8811EB /* ChartColorTemplates.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2764ABE4097A47F27AB0F9E1A4F9500 /* ChartColorTemplates.swift */; };
 		E0E30031C3269D127CCC7098ABB97372 /* PieRadarChartViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1014484674FD8233E328F3C870431 /* PieRadarChartViewBase.swift */; };
 		E1E711428632F15B1F4E73FDBDA84872 /* YAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0824DEC2C45E22127BB85A3F1B6F3 /* YAxis.swift */; };
@@ -272,7 +273,6 @@
 		EF1FCAFB3AF9857B5A5D48140D8AC81C /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8E8AF77B5DC2CBE8102A48A2A3F27936 /* POPMath.mm */; };
 		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D68CB9BB382E084E43B66F387E39B0A /* Notifications.swift */; };
 		F20E5DBEDF44FB2A2E46563502D56BA7 /* ScatterChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EA8E16421E852E4C5E16E68B2A4955 /* ScatterChartData.swift */; };
-		F2E763A6845FD660BA25D899570F3226 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C573E4B3F45924C6FA1766246491C6 /* Foundation.framework */; };
 		F57BBD2023C5966CB110624B88167218 /* POPAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = EECF5DBF5650C9B4FA44C783A534D5D2 /* POPAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F66DE3EF01408C42C115587B201CB541 /* CosmosLayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF35E302AC06242634382A6AC134183F /* CosmosLayerHelper.swift */; };
 		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC71624851D304081EC18A27B120D74 /* ResponseSerialization.swift */; };
@@ -443,6 +443,7 @@
 		4053BB83C685AA545709EFB4D410B9E9 /* ChartUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartUtils.swift; path = Source/Charts/Utils/ChartUtils.swift; sourceTree = "<group>"; };
 		4105AFFD6341A5C0DF02DFF28831C3C0 /* LineScatterCandleRadarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineScatterCandleRadarChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/LineScatterCandleRadarChartDataSet.swift; sourceTree = "<group>"; };
 		41F1014484674FD8233E328F3C870431 /* PieRadarChartViewBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieRadarChartViewBase.swift; path = Source/Charts/Charts/PieRadarChartViewBase.swift; sourceTree = "<group>"; };
+		4294AB6C3F290AFE198901B6F86D4494 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4525E3D5C9F4CBC254B9C7BB288571F5 /* BubbleChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleChartData.swift; path = Source/Charts/Data/Implementations/Standard/BubbleChartData.swift; sourceTree = "<group>"; };
 		4544618C4A22A390332503ED1F8F0207 /* pop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-umbrella.h"; sourceTree = "<group>"; };
 		45486E9BAB6DE8F4B90B28C1EC57EE6F /* BubbleChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleChartDataProvider.swift; path = Source/Charts/Interfaces/BubbleChartDataProvider.swift; sourceTree = "<group>"; };
@@ -503,6 +504,7 @@
 		6FF565926EE9ABF69F75408298F5861D /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		709B92A4A3BB722ACD5C4526CEEC84BA /* LineChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineChartDataProvider.swift; path = Source/Charts/Interfaces/LineChartDataProvider.swift; sourceTree = "<group>"; };
 		70B6917FD5611A70E53E6644A4CFDEF0 /* RadarChartDataEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadarChartDataEntry.swift; path = Source/Charts/Data/Implementations/Standard/RadarChartDataEntry.swift; sourceTree = "<group>"; };
+		720F35AA2DDE6E498DEA67CEE1F8DD2C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		7225C59C6D7348AD9D0CB4A2BBD87774 /* POPGeometry.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPGeometry.mm; path = pop/POPGeometry.mm; sourceTree = "<group>"; };
 		72424D9433655C4D0A1770CE3ED0EA58 /* RightToLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RightToLeft.swift; path = Cosmos/Helpers/RightToLeft.swift; sourceTree = "<group>"; };
 		738F0D6E4F0E45BCD224F5FEBC389549 /* LineScatterCandleRadarRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineScatterCandleRadarRenderer.swift; path = Source/Charts/Renderers/LineScatterCandleRadarRenderer.swift; sourceTree = "<group>"; };
@@ -535,7 +537,6 @@
 		8C486659F5ADDAF9D0C18D7E7129E35E /* POPAnimationTracer.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationTracer.mm; path = pop/POPAnimationTracer.mm; sourceTree = "<group>"; };
 		8DCFE7B5B1F4402FE3B3CBEBADA7DCE1 /* BarHighlighter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarHighlighter.swift; path = Source/Charts/Highlight/BarHighlighter.swift; sourceTree = "<group>"; };
 		8E8AF77B5DC2CBE8102A48A2A3F27936 /* POPMath.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPMath.mm; path = pop/POPMath.mm; sourceTree = "<group>"; };
-		8FB933B286665F829E447407260968D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8FE73DB12B9E9B5281B321DBB466E99D /* AnimatedZoomViewJob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedZoomViewJob.swift; path = Source/Charts/Jobs/AnimatedZoomViewJob.swift; sourceTree = "<group>"; };
 		8FFBF5298A6C83C510786F9BD66404D0 /* CandleChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/CandleChartDataSet.swift; sourceTree = "<group>"; };
 		906A76EBDF91C5ADE2D34A3056F0CA11 /* Pods-Torq-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Torq-resources.sh"; sourceTree = "<group>"; };
@@ -673,7 +674,6 @@
 		F4C86914CFA3367BADF65435534EA018 /* BarChartDataEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartDataEntry.swift; path = Source/Charts/Data/Implementations/Standard/BarChartDataEntry.swift; sourceTree = "<group>"; };
 		F4D0E3E81A4E65701E0EB147E5D9CBCF /* Charts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Charts.modulemap; sourceTree = "<group>"; };
 		F7E3A8FB4C7086C58FCB2D4067372749 /* UIButton+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+AlamofireImage.swift"; path = "Source/UIButton+AlamofireImage.swift"; sourceTree = "<group>"; };
-		F9C573E4B3F45924C6FA1766246491C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FA2251B7C59F2F091C66DFAB8BB215DA /* CosmosTouchTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouchTarget.swift; path = Cosmos/Helpers/CosmosTouchTarget.swift; sourceTree = "<group>"; };
 		FAB804ABBD8AA1429CBF21302AB40BD7 /* PieChartDataEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartDataEntry.swift; path = Source/Charts/Data/Implementations/Standard/PieChartDataEntry.swift; sourceTree = "<group>"; };
 		FBF2AAAFD41F7F3F7F09A6755018B281 /* YAxisRendererHorizontalBarChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAxisRendererHorizontalBarChart.swift; path = Source/Charts/Renderers/YAxisRendererHorizontalBarChart.swift; sourceTree = "<group>"; };
@@ -686,7 +686,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D018F028E4B59286F13C48DCFD2FC152 /* Foundation.framework in Frameworks */,
+				C8B4119CE3F578C7FDD78AD1EC996115 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -694,7 +694,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D54AD2E7B275B428B100E19DCC357DED /* Foundation.framework in Frameworks */,
+				A8D0F1C3405DD1451822DBEDCB4925BC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,7 +702,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26D94A340D58D11C1C6D63AA5069F9ED /* Foundation.framework in Frameworks */,
+				CB94D36793B25D17761CCE432E2C2330 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -710,7 +710,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AD1F65ACDDF6BC7598628774DDF7E00 /* Foundation.framework in Frameworks */,
+				28E9D842CA0C883D1D0E15A804B14267 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,7 +718,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				834F4D9819C6010E611A7E151B8899C3 /* Foundation.framework in Frameworks */,
+				73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -726,7 +726,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8000F702FA4385B4CE4CA9C38CE70B1F /* Foundation.framework in Frameworks */,
+				D976C2F3D92C2AF0738273BEC9A8DCF0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -735,7 +735,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				613167D898FF421A6F75D1FE5D145B9B /* Alamofire.framework in Frameworks */,
-				CFEDA7D507C506864C7F3BD287B72134 /* Foundation.framework in Frameworks */,
+				26479B07464784F3BF8C0853CA049976 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -743,9 +743,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2E763A6845FD660BA25D899570F3226 /* Foundation.framework in Frameworks */,
+				DFCB7FD0E1B3082C076C2DBAEC996646 /* Foundation.framework in Frameworks */,
 				AA48641E8143E993055BEFDCA88DFCA9 /* pop.framework in Frameworks */,
-				12F90E6E9739CB5B1A7D5C727BDB1DC3 /* UIKit.framework in Frameworks */,
+				749FE23ED589F816864B98310C3DBBE7 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -753,22 +753,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B9D62B42F8BEA19309D967D9BBFF28E /* Foundation.framework in Frameworks */,
+				69F66BDF43986A0306D1B087B1637D06 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14AFC0700CAD0892098D3EE48DC960C3 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				F9C573E4B3F45924C6FA1766246491C6 /* Foundation.framework */,
-				8FB933B286665F829E447407260968D2 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		37BAE26E619C4F715FBEFB810E317039 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -811,6 +802,15 @@
 				0DB6C73B19E3C62AD7790C1609380D50 /* SoundWave.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		422F35FC25A438BB5EE39D72FE92EE8B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4294AB6C3F290AFE198901B6F86D4494 /* Foundation.framework */,
+				720F35AA2DDE6E498DEA67CEE1F8DD2C /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		5208E5CB574C7F314940E732311264BC /* Support Files */ = {
@@ -1079,7 +1079,7 @@
 			children = (
 				8088551FE817C83C3D13DD834BDA2FAC /* Alamofire.framework */,
 				CB6CFB45AA2638B6B96CB52C4576B087 /* pop.framework */,
-				14AFC0700CAD0892098D3EE48DC960C3 /* iOS */,
+				422F35FC25A438BB5EE39D72FE92EE8B /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2027,11 +2027,7 @@
 				INFOPLIST_FILE = "Target Support Files/Koloda/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Koloda/Koloda.modulemap";
 				PRODUCT_MODULE_NAME = Koloda;
 				PRODUCT_NAME = Koloda;
@@ -2064,11 +2060,7 @@
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				PRODUCT_MODULE_NAME = Alamofire;
 				PRODUCT_NAME = Alamofire;
@@ -2101,11 +2093,7 @@
 				INFOPLIST_FILE = "Target Support Files/SoundWave/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SoundWave/SoundWave.modulemap";
 				PRODUCT_MODULE_NAME = SoundWave;
 				PRODUCT_NAME = SoundWave;
@@ -2138,11 +2126,7 @@
 				INFOPLIST_FILE = "Target Support Files/SoundWave/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SoundWave/SoundWave.modulemap";
 				PRODUCT_MODULE_NAME = SoundWave;
 				PRODUCT_NAME = SoundWave;
@@ -2174,11 +2158,7 @@
 				INFOPLIST_FILE = "Target Support Files/Charts/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Charts/Charts.modulemap";
 				PRODUCT_MODULE_NAME = Charts;
 				PRODUCT_NAME = Charts;
@@ -2210,11 +2190,7 @@
 				INFOPLIST_FILE = "Target Support Files/Cosmos/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
 				PRODUCT_MODULE_NAME = Cosmos;
 				PRODUCT_NAME = Cosmos;
@@ -2247,11 +2223,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-Torq/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Torq/Pods-Torq.modulemap";
 				OTHER_LDFLAGS = "";
@@ -2287,11 +2259,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-Torq/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Torq/Pods-Torq.modulemap";
 				OTHER_LDFLAGS = "";
@@ -2326,11 +2294,7 @@
 				INFOPLIST_FILE = "Target Support Files/pop/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/pop/pop.modulemap";
 				PRODUCT_MODULE_NAME = pop;
 				PRODUCT_NAME = pop;
@@ -2362,11 +2326,7 @@
 				INFOPLIST_FILE = "Target Support Files/Bubbles/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Bubbles/Bubbles.modulemap";
 				PRODUCT_MODULE_NAME = Bubbles;
 				PRODUCT_NAME = Bubbles;
@@ -2399,11 +2359,7 @@
 				INFOPLIST_FILE = "Target Support Files/AlamofireImage/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AlamofireImage/AlamofireImage.modulemap";
 				PRODUCT_MODULE_NAME = AlamofireImage;
 				PRODUCT_NAME = AlamofireImage;
@@ -2435,11 +2391,7 @@
 				INFOPLIST_FILE = "Target Support Files/Cosmos/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
 				PRODUCT_MODULE_NAME = Cosmos;
 				PRODUCT_NAME = Cosmos;
@@ -2472,11 +2424,7 @@
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				PRODUCT_MODULE_NAME = Alamofire;
 				PRODUCT_NAME = Alamofire;
@@ -2567,11 +2515,7 @@
 				INFOPLIST_FILE = "Target Support Files/Bubbles/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Bubbles/Bubbles.modulemap";
 				PRODUCT_MODULE_NAME = Bubbles;
 				PRODUCT_NAME = Bubbles;
@@ -2603,11 +2547,7 @@
 				INFOPLIST_FILE = "Target Support Files/AlamofireImage/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AlamofireImage/AlamofireImage.modulemap";
 				PRODUCT_MODULE_NAME = AlamofireImage;
 				PRODUCT_NAME = AlamofireImage;
@@ -2640,11 +2580,7 @@
 				INFOPLIST_FILE = "Target Support Files/pop/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/pop/pop.modulemap";
 				PRODUCT_MODULE_NAME = pop;
 				PRODUCT_NAME = pop;
@@ -2676,11 +2612,7 @@
 				INFOPLIST_FILE = "Target Support Files/Koloda/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Koloda/Koloda.modulemap";
 				PRODUCT_MODULE_NAME = Koloda;
 				PRODUCT_NAME = Koloda;
@@ -2712,11 +2644,7 @@
 				INFOPLIST_FILE = "Target Support Files/Charts/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Charts/Charts.modulemap";
 				PRODUCT_MODULE_NAME = Charts;
 				PRODUCT_NAME = Charts;
