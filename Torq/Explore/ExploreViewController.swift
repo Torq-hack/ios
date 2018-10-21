@@ -15,6 +15,7 @@ class ExploreViewController: UIViewController {
     @IBOutlet weak var kolodaView: KolodaView!
     @IBOutlet weak var outCardView: UIView!
     @IBOutlet weak var btnReverse: UIButton!
+    @IBOutlet weak var bankOfferView: UIView!
     
     var cars = [Car]()
     
@@ -24,8 +25,11 @@ class ExploreViewController: UIViewController {
         kolodaView.delegate = self
     }
 
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        bankOfferView.layer.cornerRadius = 10
+        bankOfferView.layer.borderColor = UIColor.lightGray.cgColor
+        bankOfferView.layer.borderWidth = 2
     }
 
     func reloadCarsFromServer() {
