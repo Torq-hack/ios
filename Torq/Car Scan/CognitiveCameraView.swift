@@ -26,7 +26,7 @@ class CognitiveCameraView: CameraView {
         let error: NSError! = nil
         
         do {
-            let visionModel = try VNCoreMLModel(for: ImageClassifier().model)
+            let visionModel = try VNCoreMLModel(for: CarClassifier().model)
             let objectRecognition = VNCoreMLRequest(model: visionModel, completionHandler: { (request, error) in
                 DispatchQueue.main.async(execute: {
                     // perform all the UI updates on the main queue

@@ -1,16 +1,30 @@
 PODS:
+  - Bubbles (0.1.6)
+  - Charts (3.2.1):
+    - Charts/Core (= 3.2.1)
+  - Charts/Core (3.2.1)
+  - Cosmos (17.0.0)
   - SoundWave (0.1.2)
 
 DEPENDENCIES:
+  - Bubbles
+  - Charts
+  - Cosmos (~> 17.0)
   - SoundWave
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Bubbles
+    - Charts
+    - Cosmos
     - SoundWave
 
 SPEC CHECKSUMS:
+  Bubbles: 24fa77753519cc9ee429a68c8aaff7cdab0b7030
+  Charts: f122fb70b19847fa5817d018b77d6c5a2296ab25
+  Cosmos: 309e489f21ffc91a1eeecfebef7f817cd2fcfba6
   SoundWave: 74af192045482ba1b881c6fd063655bb46162fa0
 
-PODFILE CHECKSUM: 7987113e6cf11d6e35aef00ad4fb68ff7bf7faf2
+PODFILE CHECKSUM: 9346b9aeafea35bb4737c386a6cc500a470277d7
 
 COCOAPODS: 1.5.3

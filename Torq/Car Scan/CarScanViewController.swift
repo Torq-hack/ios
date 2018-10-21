@@ -20,6 +20,10 @@ class CarScanViewController: UIViewController {
         cognitiveCameraView.delegate = self
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        cognitiveCameraView.beginSession()
+    }
+    
     @IBAction func tappedScreen(_ sender: Any) {
         cognitiveCameraView.stopSession()
         performSegue(withIdentifier: "toScanResultVC", sender: nil)

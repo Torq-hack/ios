@@ -48,7 +48,6 @@ class CameraView: UIView {
     
     private func commonInit() {
         contentMode = .scaleAspectFill
-        beginSession()
     }
     
     func beginSession() {
