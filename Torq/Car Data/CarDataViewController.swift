@@ -16,10 +16,10 @@ class CarDataViewController: UIViewController {
     var car: Car!
     
     let categories: [CarCategory] = [
-        CarCategory(categoryId: "engine", category: "Motor", image: "engine-white"),
+        CarCategory(categoryId: "engine", category: "Mecânica", image: "engine-white"),
+        CarCategory(categoryId: "gear", category: "Elétrica", image: "electricIcon"),
         CarCategory(categoryId: "security", category: "Segurança", image: "bealt-white"),
-        CarCategory(categoryId: "visual", category: "Visual", image: "car-white-3"),
-        CarCategory(categoryId: "gear", category: "Outros", image: "engine_turbo"),
+        CarCategory(categoryId: "visual", category: "Visual", image: "car-white-3")
     ]
     
     let color = ["fc4f43", "7cc7a7", "84c5e4", "146c8f"]
@@ -32,6 +32,11 @@ class CarDataViewController: UIViewController {
         carDataCollectionView.delegate = self
         carDataCollectionView.dataSource = self
         carDataCollectionView.reloadData()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.navigationBar.prefersLargeTitles = true
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

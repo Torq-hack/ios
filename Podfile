@@ -8,6 +8,7 @@ target 'Torq' do
   # Pods for Torq
   pod 'Cosmos', '~> 17.0'
   pod 'SoundWave'
+  pod 'ScrollableGraphView'
   pod 'Charts'
   pod 'Bubbles'
   pod 'Koloda'
