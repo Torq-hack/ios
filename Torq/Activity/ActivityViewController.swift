@@ -10,6 +10,8 @@ import UIKit
 
 class ActivityViewController: UITableViewController {
 
+    var car: Car?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }

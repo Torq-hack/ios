@@ -22,12 +22,14 @@ class CarScanResultViewController: UIViewController {
             brand = resultComponents[0].capitalizingFirstLetter()
             model = resultComponents[1].capitalizingFirstLetter()
             year = resultComponents[2]
-
+            car = Car(brand:brand, model: model, year: Int(year)!)
         }
     }
     var brand: String!
     var model: String!
     var year: String!
+    
+    var car: Car!
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -40,5 +42,30 @@ class CarScanResultViewController: UIViewController {
         detailLabel.text = "\(segment) - \(year!)"
         brandImageView.image = UIImage(named: "\(brand!)Logo")
         carImageView.image = UIImage(named: "\(model!)Profile")
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        guard let identifier = segue.identifier else {
+            return
+        }
+        
+        switch identifier {
+        case "segueToMain":
+            
+            guard let tabBarController = segue.destination as? UITabBarController else {
+                return
+            }
+            
+            (tabBarController.viewControllers?.first as? ActivityViewController)?.car = sender as? Car
+            
+        default:
+            break
+        }
+        
+    }
+    
+    @IBAction func showMain(_ sender: Any) {
+        performSegue(withIdentifier: "segueToMain", sender: self.car)
     }
 }

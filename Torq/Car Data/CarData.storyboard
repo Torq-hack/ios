@@ -205,6 +205,7 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="carDataCollectionView" destination="mqt-OU-FIw" id="siV-6o-wY5"/>
+                        <outlet property="lblTitle" destination="Wfq-Hr-9lP" id="PGt-Ud-JnW"/>
                         <segue destination="nFd-jC-otS" kind="show" identifier="segueToCarCategoryDetail" id="5Jo-bk-P0m"/>
                         <segue destination="lSW-Iw-M2w" kind="show" identifier="segueToCarPriceHistoryViewController" id="2ea-Le-tcJ"/>
                     </connections>
