@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		57018EB5217BF8E600E65DCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57018EB4217BF8E600E65DCD /* AppDelegate.swift */; };
-		57018EB7217BF8E600E65DCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57018EB6217BF8E600E65DCD /* ViewController.swift */; };
 		57018EBA217BF8E600E65DCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57018EB8217BF8E600E65DCD /* Main.storyboard */; };
 		57018EBC217BF8E700E65DCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57018EBB217BF8E700E65DCD /* Assets.xcassets */; };
 		57018EBF217BF8E700E65DCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57018EBD217BF8E700E65DCD /* LaunchScreen.storyboard */; };
+		57018EC9217BFA9E00E65DCD /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57018EC8217BFA9E00E65DCD /* ActivityViewController.swift */; };
+		57018ECB217BFAD400E65DCD /* CarDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57018ECA217BFAD400E65DCD /* CarDataViewController.swift */; };
+		57018ECD217BFAF700E65DCD /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57018ECC217BFAF700E65DCD /* ExploreViewController.swift */; };
+		57018ED0217BFB5900E65DCD /* Activity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57018ECE217BFB5900E65DCD /* Activity.storyboard */; };
+		57018ED2217BFB8300E65DCD /* CarData.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57018ED1217BFB8300E65DCD /* CarData.storyboard */; };
+		57018ED4217BFBA600E65DCD /* Explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57018ED3217BFBA600E65DCD /* Explore.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		57018EB1217BF8E600E65DCD /* Torq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Torq.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57018EB4217BF8E600E65DCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		57018EB6217BF8E600E65DCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57018EB9217BF8E600E65DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57018EBB217BF8E700E65DCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57018EBE217BF8E700E65DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57018EC0217BF8E700E65DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57018EC8217BFA9E00E65DCD /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		57018ECA217BFAD400E65DCD /* CarDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDataViewController.swift; sourceTree = "<group>"; };
+		57018ECC217BFAF700E65DCD /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		57018ECF217BFB5900E65DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Torq/Storyboards/Base.lproj/Activity.storyboard; sourceTree = "<group>"; };
+		57018ED1217BFB8300E65DCD /* CarData.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CarData.storyboard; sourceTree = "<group>"; };
+		57018ED3217BFBA600E65DCD /* Explore.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Explore.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,51 @@
 		57018EB3217BF8E600E65DCD /* Torq */ = {
 			isa = PBXGroup;
 			children = (
-				57018EB4217BF8E600E65DCD /* AppDelegate.swift */,
-				57018EB6217BF8E600E65DCD /* ViewController.swift */,
 				57018EB8217BF8E600E65DCD /* Main.storyboard */,
+				57018ED5217BFBCE00E65DCD /* Car Data */,
+				57018ED6217BFBDA00E65DCD /* Activity */,
+				57018ED7217BFBE100E65DCD /* Explore */,
+				57018EC6217BFA4400E65DCD /* Supporting Files */,
+			);
+			path = Torq;
+			sourceTree = "<group>";
+		};
+		57018EC6217BFA4400E65DCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				57018EBB217BF8E700E65DCD /* Assets.xcassets */,
+				57018EB4217BF8E600E65DCD /* AppDelegate.swift */,
 				57018EBD217BF8E700E65DCD /* LaunchScreen.storyboard */,
 				57018EC0217BF8E700E65DCD /* Info.plist */,
 			);
-			path = Torq;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57018ED5217BFBCE00E65DCD /* Car Data */ = {
+			isa = PBXGroup;
+			children = (
+				57018ED1217BFB8300E65DCD /* CarData.storyboard */,
+				57018ECA217BFAD400E65DCD /* CarDataViewController.swift */,
+			);
+			path = "Car Data";
+			sourceTree = "<group>";
+		};
+		57018ED6217BFBDA00E65DCD /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				57018ECE217BFB5900E65DCD /* Activity.storyboard */,
+				57018EC8217BFA9E00E65DCD /* ActivityViewController.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		57018ED7217BFBE100E65DCD /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				57018ED3217BFBA600E65DCD /* Explore.storyboard */,
+				57018ECC217BFAF700E65DCD /* ExploreViewController.swift */,
+			);
+			path = Explore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +171,10 @@
 			files = (
 				57018EBF217BF8E700E65DCD /* LaunchScreen.storyboard in Resources */,
 				57018EBC217BF8E700E65DCD /* Assets.xcassets in Resources */,
+				57018ED2217BFB8300E65DCD /* CarData.storyboard in Resources */,
 				57018EBA217BF8E600E65DCD /* Main.storyboard in Resources */,
+				57018ED4217BFBA600E65DCD /* Explore.storyboard in Resources */,
+				57018ED0217BFB5900E65DCD /* Activity.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +185,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57018EB7217BF8E600E65DCD /* ViewController.swift in Sources */,
+				57018ECD217BFAF700E65DCD /* ExploreViewController.swift in Sources */,
+				57018EC9217BFA9E00E65DCD /* ActivityViewController.swift in Sources */,
 				57018EB5217BF8E600E65DCD /* AppDelegate.swift in Sources */,
+				57018ECB217BFAD400E65DCD /* CarDataViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +209,14 @@
 				57018EBE217BF8E700E65DCD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		57018ECE217BFB5900E65DCD /* Activity.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57018ECF217BFB5900E65DCD /* Base */,
+			);
+			name = Activity.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -284,7 +344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6F983ZW9E9;
-				INFOPLIST_FILE = Torq/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Torq/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +362,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6F983ZW9E9;
-				INFOPLIST_FILE = Torq/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Torq/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
