@@ -18,6 +18,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Onbording_3" translatesAutoresizingMaskIntoConstraints="NO" id="hpl-1A-WZN">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y1v-SX-4jk">
                                 <rect key="frame" x="97" y="611" width="221" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -42,7 +46,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="So5-Pl-nx7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="196" y="169"/>
+            <point key="canvasLocation" x="195.6521739130435" y="167.93478260869566"/>
         </scene>
         <!--CarScan-->
         <scene sceneID="rer-ig-By1">
@@ -53,4 +57,7 @@
             <point key="canvasLocation" x="791" y="163"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Onbording_3" width="1080" height="1920"/>
+    </resources>
 </document>
