@@ -44,28 +44,10 @@ class CarScanResultViewController: UIViewController {
         carImageView.image = UIImage(named: "\(model!)Profile")
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        guard let identifier = segue.identifier else {
-            return
-        }
-        
-        switch identifier {
-        case "segueToMain":
-            
-            guard let tabBarController = segue.destination as? UITabBarController else {
-                return
-            }
-            
-            (tabBarController.viewControllers?.first as? ActivityViewController)?.car = sender as? Car
-            
-        default:
-            break
-        }
-        
-    }
-    
     @IBAction func showMain(_ sender: Any) {
-        performSegue(withIdentifier: "segueToMain", sender: self.car)
+        AppInfo.shared.car = self.car
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        UIApplication.shared.keyWindow?.rootViewController = sb.instantiateInitialViewController()
+        UIApplication.shared.keyWindow?.makeKeyAndVisible()
     }
 }

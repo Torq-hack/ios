@@ -32,6 +32,10 @@ class NoiseAnalyzerViewController: UIViewController {
         }
     }
     
+    @IBAction func dismissPressed(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     func startRecording() {
         AudioRecorderManager.shared.startRecording(with: 0.01, completion: { [weak self] url, error in
 //            self?.currentAudioRecord = SoundRecord(audioFilePathLocal: url, meteringLevels: [])

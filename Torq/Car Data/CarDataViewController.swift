@@ -13,7 +13,7 @@ class CarDataViewController: UIViewController {
     @IBOutlet weak var carDataCollectionView: UICollectionView!
     @IBOutlet weak var lblTitle: UIButton!
     
-    var car: Car?
+    var car: Car!
     
     let categories: [CarCategory] = [
         CarCategory(categoryId: "engine", category: "Motor", image: "engine-white"),
@@ -26,12 +26,9 @@ class CarDataViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        if let car = self.car {
-            lblTitle.setTitle("\(car.brand) \(car.model)", for: UIControl.State.normal)
-        } else {
-            lblTitle.setTitle("Meu Carro", for: UIControl.State.normal)
-        }
+        self.car = AppInfo.shared.car
+        self.title = "\(car.brand) \(car.model)"
+        self.tabBarItem.image = UIImage(named: "carDataTab")
         carDataCollectionView.delegate = self
         carDataCollectionView.dataSource = self
         carDataCollectionView.reloadData()

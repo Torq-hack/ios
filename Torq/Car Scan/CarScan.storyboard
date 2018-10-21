@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.30.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Cz8-GF-rQE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.23.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Cz8-GF-rQE">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.19.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.16.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -92,7 +92,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91824635152284273" green="0.030216127260760024" blue="0.18924481508732438" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
-                                <state key="normal" title="Proceed">
+                                <state key="normal" title="Feito!">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -119,20 +119,11 @@
                         <outlet property="detailLabel" destination="LpG-gm-HkR" id="TWU-NJ-M6Q"/>
                         <outlet property="modelLabel" destination="nHd-XQ-xSU" id="O2U-PV-9wt"/>
                         <outlet property="plateLabel" destination="1cT-Tq-1EW" id="6jg-6S-PMI"/>
-                        <segue destination="vdn-Kq-Yvl" kind="show" identifier="segueToMain" id="J9R-b9-gX2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mnX-HX-atI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1952.1739130434785" y="-437.77173913043481"/>
-        </scene>
-        <!--Main-->
-        <scene sceneID="UXG-5C-F3w">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Main" id="vdn-Kq-Yvl" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1KI-Tm-OJF" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2467" y="-383"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8Y3-lw-07D">

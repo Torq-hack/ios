@@ -23,6 +23,7 @@ class ExploreViewController: UIViewController {
         super.viewDidLoad()
         kolodaView.dataSource = self
         kolodaView.delegate = self
+        reloadCarsFromServer()
     }
 
     override func viewDidLayoutSubviews() {
@@ -71,9 +72,13 @@ extension ExploreViewController: KolodaViewDelegate {
     }
     
     func koloda(_ koloda: KolodaView, didSelectCardAt index: Int) {
+        
     }
     
     func koloda(_ koloda: KolodaView, didSwipeCardAt index: Int, in direction: SwipeResultDirection) {
+        if direction == .right {
+            
+        }
     }
 }
 
