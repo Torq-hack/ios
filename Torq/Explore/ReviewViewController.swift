@@ -14,6 +14,7 @@ class ReviewViewController: UIViewController {
     @IBOutlet var imageView: UIImageView!
     @IBOutlet var carLabel: UILabel!
     @IBOutlet var applePayContainerView: UIView!
+    @IBOutlet var panelHeightConstraint: NSLayoutConstraint!
     var car: Car!
     var carImage: UIImage!
     
@@ -25,6 +26,7 @@ class ReviewViewController: UIViewController {
         let applePayButton = PKPaymentButton(paymentButtonType: .buy, paymentButtonStyle: .black)
         applePayButton.addTarget(self, action: #selector(applePayPressed), for: .touchUpInside)
         applePayContainerView.addSubview(applePayButton)
+        panelHeightConstraint.constant = 50
     }
     
     @objc func applePayPressed(sender: UIButton) {
@@ -43,6 +45,18 @@ class ReviewViewController: UIViewController {
             let authorizationViewController = PKPaymentAuthorizationViewController(paymentRequest: request)
             authorizationViewController?.delegate = self
             present(authorizationViewController!, animated: true, completion: nil)
+        }
+    }
+    
+    @IBAction func visitValueChanged(_ sender: UISwitch) {
+        if sender.isOn {
+            panelHeightConstraint.constant = 214
+        }
+        else {
+            panelHeightConstraint.constant = 50
+        }
+        UIView.animate(withDuration: 0.4) {
+            self.view.layoutIfNeeded()
         }
     }
 }
