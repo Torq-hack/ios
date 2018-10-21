@@ -13,6 +13,7 @@ target 'Torq' do
   pod 'Koloda'
   pod 'Alamofire'
   pod 'AlamofireImage'
+  pod 'lottie-ios'
 
   post_install do |installer|
     installer.pods_project.targets.each do |target|

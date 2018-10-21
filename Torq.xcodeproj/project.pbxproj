@@ -38,6 +38,8 @@
 		57A86CCC217C34A300AC6183 /* CognitiveCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A86CCB217C34A300AC6183 /* CognitiveCameraView.swift */; };
 		57A86CCE217C3B9100AC6183 /* CarScanResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A86CCD217C3B9100AC6183 /* CarScanResultViewController.swift */; };
 		57ED9303217C6DDA004D0A13 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57ED9302217C6DDA004D0A13 /* Onboarding.storyboard */; };
+		57ED9305217C74C1004D0A13 /* BroadcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED9304217C74C1004D0A13 /* BroadcastViewController.swift */; };
+		57ED9309217C76B4004D0A13 /* radar.json in Resources */ = {isa = PBXBuildFile; fileRef = 57ED9308217C76B4004D0A13 /* radar.json */; };
 		71FA1293471ADDE64F6C3E83 /* Pods_Torq.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F76E4F780980BAA054F496 /* Pods_Torq.framework */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +78,8 @@
 		57A86CCB217C34A300AC6183 /* CognitiveCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognitiveCameraView.swift; sourceTree = "<group>"; };
 		57A86CCD217C3B9100AC6183 /* CarScanResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarScanResultViewController.swift; sourceTree = "<group>"; };
 		57ED9302217C6DDA004D0A13 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		57ED9304217C74C1004D0A13 /* BroadcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastViewController.swift; sourceTree = "<group>"; };
+		57ED9308217C76B4004D0A13 /* radar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = radar.json; sourceTree = "<group>"; };
 		70C13534AE9B38F2ADB8CFAB /* Pods-Torq.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Torq.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Torq/Pods-Torq.debug.xcconfig"; sourceTree = "<group>"; };
 		8219967CE7C4D18428BE0FF8 /* Pods-Torq.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Torq.release.xcconfig"; path = "Pods/Target Support Files/Pods-Torq/Pods-Torq.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,6 +159,7 @@
 		57018EC6217BFA4400E65DCD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				57ED9308217C76B4004D0A13 /* radar.json */,
 				57018EBB217BF8E700E65DCD /* Assets.xcassets */,
 				57018EB4217BF8E600E65DCD /* AppDelegate.swift */,
 				57018EBD217BF8E700E65DCD /* LaunchScreen.storyboard */,
@@ -190,8 +195,9 @@
 			children = (
 				3EC25666217C43CE006CA7C5 /* Views */,
 				57018ED3217BFBA600E65DCD /* Explore.storyboard */,
-				57018ECC217BFAF700E65DCD /* ExploreViewController.swift */,
 				57589520217C5D6D00C4978F /* ProfileAnalyzerViewController.swift */,
+				57018ECC217BFAF700E65DCD /* ExploreViewController.swift */,
+				57ED9304217C74C1004D0A13 /* BroadcastViewController.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -319,6 +325,7 @@
 				57018EDC217BFCE400E65DCD /* CarScan.storyboard in Resources */,
 				3EC25669217C4414006CA7C5 /* CardView.xib in Resources */,
 				57018EBC217BF8E700E65DCD /* Assets.xcassets in Resources */,
+				57ED9309217C76B4004D0A13 /* radar.json in Resources */,
 				57A83327217C06EE001DDB7F /* NoiseAnalyzer.storyboard in Resources */,
 				57018ED2217BFB8300E65DCD /* CarData.storyboard in Resources */,
 				57018EBA217BF8E600E65DCD /* Main.storyboard in Resources */,
@@ -344,6 +351,7 @@
 				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
 				"${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework",
 				"${BUILT_PRODUCTS_DIR}/SoundWave/SoundWave.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -355,6 +363,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koloda.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SoundWave.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +404,7 @@
 				579F12E0217C4EB400CA7B79 /* CarClassifier.mlmodel in Sources */,
 				57A86CCC217C34A300AC6183 /* CognitiveCameraView.swift in Sources */,
 				57A8332F217C110E001DDB7F /* SoundWave+Helpers.swift in Sources */,
+				57ED9305217C74C1004D0A13 /* BroadcastViewController.swift in Sources */,
 				57018ECD217BFAF700E65DCD /* ExploreViewController.swift in Sources */,
 				3EB803E2217C30EA00CEF34A /* Car.swift in Sources */,
 				57018EC9217BFA9E00E65DCD /* ActivityViewController.swift in Sources */,
