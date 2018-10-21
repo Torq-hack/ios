@@ -10,6 +10,9 @@ target 'Torq' do
   pod 'SoundWave'
   pod 'Charts'
   pod 'Bubbles'
+  pod 'Koloda'
+  pod 'Alamofire'
+  pod 'AlamofireImage'
 
   post_install do |installer|
     installer.pods_project.targets.each do |target|

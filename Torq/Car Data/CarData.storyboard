@@ -66,10 +66,10 @@
                                         </constraints>
                                     </progressView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="33y-Z1-qip">
-                                        <rect key="frame" x="314" y="89" width="53" height="28"/>
+                                        <rect key="frame" x="314" y="93" width="53" height="20.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3,8" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Dk-yD-l3R">
-                                                <rect key="frame" x="0.0" y="0.0" width="25" height="28"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="25" height="20.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="25" id="7v6-Ym-VWh"/>
                                                 </constraints>
@@ -78,7 +78,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bqU-hb-vaP" customClass="CosmosView" customModule="Cosmos">
-                                                <rect key="frame" x="33" y="4" width="20" height="20"/>
+                                                <rect key="frame" x="33" y="4" width="20" height="12.5"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="20" id="14C-UQ-bkC"/>
@@ -167,7 +167,7 @@
                                                 </label>
                                             </subviews>
                                         </view>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         <constraints>
                                             <constraint firstItem="Tex-Mz-s8o" firstAttribute="leading" secondItem="Pdy-Ap-yQ6" secondAttribute="leading" id="Iwx-wL-bRZ"/>
                                             <constraint firstItem="Tex-Mz-s8o" firstAttribute="top" secondItem="Pdy-Ap-yQ6" secondAttribute="top" id="LM7-vv-7a0"/>
