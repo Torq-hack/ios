@@ -30,6 +30,9 @@
 		5758951D217C514000C4978F /* AudioErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A8332C217C10F5001DDB7F /* AudioErrorType.swift */; };
 		5758951F217C5B1700C4978F /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5758951E217C5B1700C4978F /* StringExtension.swift */; };
 		57589521217C5D6D00C4978F /* ProfileAnalyzerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57589520217C5D6D00C4978F /* ProfileAnalyzerViewController.swift */; };
+		5773CA20217C8D120065785F /* CarDashAnalyzer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5773CA1F217C8D120065785F /* CarDashAnalyzer.storyboard */; };
+		5773CA22217C8D720065785F /* CarDashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5773CA21217C8D720065785F /* CarDashViewController.swift */; };
+		5773CA24217C8F370065785F /* CarDashLights.scn in Resources */ = {isa = PBXBuildFile; fileRef = 5773CA23217C8F370065785F /* CarDashLights.scn */; };
 		579F12E0217C4EB400CA7B79 /* CarClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 579F12DF217C4EB400CA7B79 /* CarClassifier.mlmodel */; };
 		57A83327217C06EE001DDB7F /* NoiseAnalyzer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A83326217C06EE001DDB7F /* NoiseAnalyzer.storyboard */; };
 		57A83329217C071B001DDB7F /* NoiseAnalyzerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A83328217C071B001DDB7F /* NoiseAnalyzerViewController.swift */; };
@@ -68,6 +71,9 @@
 		57018EDD217BFD0200E65DCD /* CarScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarScanViewController.swift; sourceTree = "<group>"; };
 		5758951E217C5B1700C4978F /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		57589520217C5D6D00C4978F /* ProfileAnalyzerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAnalyzerViewController.swift; sourceTree = "<group>"; };
+		5773CA1F217C8D120065785F /* CarDashAnalyzer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarDashAnalyzer.storyboard; sourceTree = "<group>"; };
+		5773CA21217C8D720065785F /* CarDashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDashViewController.swift; sourceTree = "<group>"; };
+		5773CA23217C8F370065785F /* CarDashLights.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = CarDashLights.scn; sourceTree = "<group>"; };
 		579F12DF217C4EB400CA7B79 /* CarClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CarClassifier.mlmodel; sourceTree = "<group>"; };
 		57A83326217C06EE001DDB7F /* NoiseAnalyzer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NoiseAnalyzer.storyboard; sourceTree = "<group>"; };
 		57A83328217C071B001DDB7F /* NoiseAnalyzerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoiseAnalyzerViewController.swift; sourceTree = "<group>"; };
@@ -205,9 +211,8 @@
 		57018ED8217BFC5C00E65DCD /* Analyzer */ = {
 			isa = PBXGroup;
 			children = (
-				57A83326217C06EE001DDB7F /* NoiseAnalyzer.storyboard */,
-				57A83328217C071B001DDB7F /* NoiseAnalyzerViewController.swift */,
-				57A83331217C19F0001DDB7F /* CameraView.swift */,
+				5773CA1E217C8CEE0065785F /* Car Dash */,
+				5773CA1D217C8CE70065785F /* Noise */,
 			);
 			path = Analyzer;
 			sourceTree = "<group>";
@@ -222,6 +227,26 @@
 				57A86CCB217C34A300AC6183 /* CognitiveCameraView.swift */,
 			);
 			path = "Car Scan";
+			sourceTree = "<group>";
+		};
+		5773CA1D217C8CE70065785F /* Noise */ = {
+			isa = PBXGroup;
+			children = (
+				57A83326217C06EE001DDB7F /* NoiseAnalyzer.storyboard */,
+				57A83328217C071B001DDB7F /* NoiseAnalyzerViewController.swift */,
+				57A83331217C19F0001DDB7F /* CameraView.swift */,
+			);
+			path = Noise;
+			sourceTree = "<group>";
+		};
+		5773CA1E217C8CEE0065785F /* Car Dash */ = {
+			isa = PBXGroup;
+			children = (
+				5773CA1F217C8D120065785F /* CarDashAnalyzer.storyboard */,
+				5773CA21217C8D720065785F /* CarDashViewController.swift */,
+				5773CA23217C8F370065785F /* CarDashLights.scn */,
+			);
+			path = "Car Dash";
 			sourceTree = "<group>";
 		};
 		57A83330217C11AB001DDB7F /* SoundWave */ = {
@@ -321,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57018EBF217BF8E700E65DCD /* LaunchScreen.storyboard in Resources */,
+				5773CA20217C8D120065785F /* CarDashAnalyzer.storyboard in Resources */,
 				57ED9303217C6DDA004D0A13 /* Onboarding.storyboard in Resources */,
 				57018EDC217BFCE400E65DCD /* CarScan.storyboard in Resources */,
 				3EC25669217C4414006CA7C5 /* CardView.xib in Resources */,
@@ -329,6 +355,7 @@
 				57A83327217C06EE001DDB7F /* NoiseAnalyzer.storyboard in Resources */,
 				57018ED2217BFB8300E65DCD /* CarData.storyboard in Resources */,
 				57018EBA217BF8E600E65DCD /* Main.storyboard in Resources */,
+				5773CA24217C8F370065785F /* CarDashLights.scn in Resources */,
 				57018ED4217BFBA600E65DCD /* Explore.storyboard in Resources */,
 				57018ED0217BFB5900E65DCD /* Activity.storyboard in Resources */,
 			);
@@ -399,6 +426,7 @@
 				57A8332B217C0F76001DDB7F /* AudioRecorderManager.swift in Sources */,
 				57A83329217C071B001DDB7F /* NoiseAnalyzerViewController.swift in Sources */,
 				57A86CCE217C3B9100AC6183 /* CarScanResultViewController.swift in Sources */,
+				5773CA22217C8D720065785F /* CarDashViewController.swift in Sources */,
 				57018EDE217BFD0200E65DCD /* CarScanViewController.swift in Sources */,
 				57589521217C5D6D00C4978F /* ProfileAnalyzerViewController.swift in Sources */,
 				579F12E0217C4EB400CA7B79 /* CarClassifier.mlmodel in Sources */,
