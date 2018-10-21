@@ -39,7 +39,6 @@
 		0FCD971E8D1ADF47505F579AD27BC81B /* LOTKeyframe.h in Headers */ = {isa = PBXBuildFile; fileRef = EDEC7D6F3F8601E479877B73C2DA05DD /* LOTKeyframe.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A435220135DC63B47A92FA1DA554F3 /* Timeline.swift */; };
 		12BBF9613D7B8B92658A996DBA2F0BA3 /* HorizontalBarChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F7D8256BD6088BDF8EC9A1156D0B98 /* HorizontalBarChartRenderer.swift */; };
-		12F90E6E9739CB5B1A7D5C727BDB1DC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB933B286665F829E447407260968D2 /* UIKit.framework */; };
 		13D07044A90082C82EFE9796E9486BB6 /* ChartDataEntryBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAABF51F01B630D4DB0722D3D95386AA /* ChartDataEntryBase.swift */; };
 		14E83AFDD337CE917003CB8224C110FE /* LOTRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CBC7CE691181C894D78917E85276AA /* LOTRadialGradientLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		15608D1D8E70D220782D2BDA26BE7EC6 /* ChevronUpShapeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DD3246F3993AF7C872360131B0E0D4 /* ChevronUpShapeRenderer.swift */; };
@@ -67,8 +66,8 @@
 		256051B5A5700801E813CA878B5C214B /* Charts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 500A9BA025F1468F061967F59305280F /* Charts-dummy.m */; };
 		2582DE757C71AA7587A1E244B761EE01 /* KolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34FC39F99AD561DA94DE534CEBF2020 /* KolodaView.swift */; };
 		25DFA72039CBA011EBA738AA73084A8E /* CosmosSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5FFE61962A59E3ED69E237E5CE504B /* CosmosSize.swift */; };
+		26479B07464784F3BF8C0853CA049976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4294AB6C3F290AFE198901B6F86D4494 /* Foundation.framework */; };
 		26D8A5A8E6C8879AEAF1C4D192649551 /* LOTInterpolatorCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = EF206B662E470C4E9C382CD30C6D28DB /* LOTInterpolatorCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26D94A340D58D11C1C6D63AA5069F9ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C573E4B3F45924C6FA1766246491C6 /* Foundation.framework */; };
 		27996F52CCABBD6D0874B79D1B913598 /* ImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0863078397C3299481EB996D53362C /* ImageFilter.swift */; };
 		27DC407E6B10E7A42336C7DAA61D7D03 /* BubbleChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89568E94A916AA34DA782CCD1EB4A0C /* BubbleChartData.swift */; };
 		2846572E7CA0528F8C82CBE89A42D765 /* CGGeometry+LOTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFF54085250FCE3F4D509A9BDE9A831 /* CGGeometry+LOTAdditions.m */; };
@@ -88,7 +87,6 @@
 		2F20F313550A54C88F3F059B5B53074C /* POPCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB661BCEED3AA0F67574FB7C96D9C83 /* POPCustomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		304C5736AC5D49B526C709397D0CF048 /* UIImageView+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A77282C0F610E6702A06E6A3D5D83CB /* UIImageView+AlamofireImage.swift */; };
 		3135504FE4B7D3E309C1CF3245B701A1 /* IValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A117421FFF9C5FDB966371A30F35ED /* IValueFormatter.swift */; };
-		31ABD52A262CFDC1E0F1F67A6E9F5BA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C573E4B3F45924C6FA1766246491C6 /* Foundation.framework */; };
 		32EDA9ED83F4442303A46839027E152E /* AlamofireImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B5C471FF8FE63F6AA834B84F504FE49 /* AlamofireImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3304788139D47F53D584AF2FD40EB5B2 /* NSValue+Compat.h in Headers */ = {isa = PBXBuildFile; fileRef = 8993AE14593F19AAB3ADC7B90518746B /* NSValue+Compat.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		33F68C68D4A67265729F317D9B48593E /* LOTArrayInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DCE58984FA7BB81164671CEE845680 /* LOTArrayInterpolator.m */; };
@@ -133,7 +131,6 @@
 		4F40A9CBB316E7100828F0C6F5714946 /* CosmosTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FC38BABBD82D06C554AB91AEAEF0DE /* CosmosTouch.swift */; };
 		4FD6BDEFF57474176A2DD61F6274C552 /* MoveViewJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CA5B1B04A8107234B9B2D9B843589F /* MoveViewJob.swift */; };
 		507B9793B2B6AC3781DB12E8FE06ED98 /* IPieChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15922FD6DC7EE9847AD501DEC465767 /* IPieChartDataSet.swift */; };
-		50BFD284C753CB377E6865BE98686CB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C573E4B3F45924C6FA1766246491C6 /* Foundation.framework */; };
 		52667C5DBA87C7DD137E52692E3F3F2D /* LOTKeypath.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CDC45DD22B3D7845B3E28A9F30C6965 /* LOTKeypath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		532B9B449E7C71658A6AAD5D4ED0561B /* XAxisRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4C215443562FFDF40C5FFB5331C414 /* XAxisRenderer.swift */; };
 		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BF5B14618AC5EC1A0A400C80EFD7B0 /* Request.swift */; };
@@ -184,8 +181,11 @@
 		722D558CFCF0ED4DC52EE3C79427DB04 /* LOTMask.h in Headers */ = {isa = PBXBuildFile; fileRef = F51A3D8859AC3FCC71D36EADF4A25EF8 /* LOTMask.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		723E9D065E16BA1DF7F3968C5B6C1AD4 /* LOTLayerGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = B8FD32B13575E2EC3B06A5C3DABB4BB0 /* LOTLayerGroup.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		72ED404ABFCF48754B2DFDB34886A64D /* LOTAnimatedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A0A6B2BEF762681AF299DB6C717B2B /* LOTAnimatedControl.m */; };
+		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4294AB6C3F290AFE198901B6F86D4494 /* Foundation.framework */; };
 		73BED6DAA29920631BD1CFC46AFEB1DF /* IRadarChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0E91DB31FAA056D3FB23525C3A83A /* IRadarChartDataSet.swift */; };
 		73DCF8F1CF29D78824ED9A1A1962809A /* LOTAnimationCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C86968ABD7518B858EC6AFCB7595149 /* LOTAnimationCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		749FE23ED589F816864B98310C3DBBE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720F35AA2DDE6E498DEA67CEE1F8DD2C /* UIKit.framework */; };
+		75DAD65B0EFEE8D22D9FBF8C5A76062D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4294AB6C3F290AFE198901B6F86D4494 /* Foundation.framework */; };
 		7642DF9D49A934E745A094E4E4FC4770 /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = A5EFF0D9BC23D6F517ABB097C7349D12 /* POPGeometry.mm */; };
 		7765530D8102C02AF53866E1FD39470B /* LOTShapeFill.h in Headers */ = {isa = PBXBuildFile; fileRef = B17148C8856E57BECF8C428E486E40CF /* LOTShapeFill.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		77689D441A12F6F4EEC8F53C87EDFFE9 /* LOTValueInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AABB6A52D33C4D034BBED08EC90E306 /* LOTValueInterpolator.m */; };
@@ -205,12 +205,10 @@
 		7DCFA9D51C0611C4C67A959D59275AC4 /* LOTLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB9D90BEB8A284E1F4E417EC6E5664 /* LOTLayer.m */; };
 		7EA4CF7D3150AD7B92ED267BDFC9173E /* POPAnimationEventInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = DB26FA6EE7E782D3009DAC2B44C6F05A /* POPAnimationEventInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7F4DCE03408063006E071CA441E94B93 /* LOTAnimatedSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DD33A035422B62D1B46350F4BC37BF /* LOTAnimatedSwitch.m */; };
-		8000F702FA4385B4CE4CA9C38CE70B1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C573E4B3F45924C6FA1766246491C6 /* Foundation.framework */; };
 		8048E72DC5A103EE6445E0878508678C /* LOTAssetGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D24C1C15FEB1D35E3823F167E8C2F5 /* LOTAssetGroup.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		81B79CFBA2A608E149A5A16B60B06C4D /* LOTRenderGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = B5760EF09FB8AAD905D911BEEF26C612 /* LOTRenderGroup.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		82DF81BB5D82EA6052AFA9FA1FD45CB3 /* LOTRenderNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F667BE5871F0D8B9CE4167F32F28C99 /* LOTRenderNode.m */; };
 		82FF299760F6D84BB54E928698AF6C76 /* POPAnimationRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C924CEF90FA74C7287402368A7786B7 /* POPAnimationRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		834F4D9819C6010E611A7E151B8899C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C573E4B3F45924C6FA1766246491C6 /* Foundation.framework */; };
 		8525ADFC1275F005AD52FC613574B75F /* POPDecayAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = AA188656F14D815402611DFBEC445148 /* POPDecayAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		85F66A71CF23FE205B807D4E5921788E /* CircleShapeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000A43028273DB39A55FE15951EFC8 /* CircleShapeRenderer.swift */; };
 		87DE26FA5674DB6E0AA9A80EEE92C78A /* BarChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35727EE0E1AF25A92025A95F85CADDC4 /* BarChartDataProvider.swift */; };
@@ -232,6 +230,7 @@
 		8E05FC9B5C00F66E1F2DEABA58490F8D /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 254BB174EBDF2DBE8209035B52799C15 /* POPCustomAnimation.mm */; };
 		8E869B03E7571F029C27DC3C423BA8F3 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470755D2DC812F882BD0C2E19F6817AF /* LineChartView.swift */; };
 		8F573C95BAB4BB9BD33A921CB78B1C0D /* LOTRepeaterRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6712E14B29273D45D66665584404C4E5 /* LOTRepeaterRenderer.m */; };
+		8FA0E1F7C260E0C03DDE825E3605D320 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4294AB6C3F290AFE198901B6F86D4494 /* Foundation.framework */; };
 		8FAA53D7C600935281B0FCF52F5EA104 /* LOTPathInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1E517A609FF9D35134DB6BFA2E16DB /* LOTPathInterpolator.m */; };
 		90696E32D2F6FB74CB8C2A2F0203D10D /* PieChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AB56600FCEF08C7CFC04B13F4AA51E /* PieChartData.swift */; };
 		91778CF13C5F652E3DDC4C3262C958B2 /* POPAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 38D0DD78C9D3F7094DE455FC358D64F8 /* POPAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -239,10 +238,8 @@
 		9212A5BB25E3F297C8B02B2EE2C3F89D /* CSBubbleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A17FA47F3987A344403EA2DD382295 /* CSBubbleNode.swift */; };
 		92DBB770C733441FEF2727149A0E918D /* LOTPolystarAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712C63882CF9D5B837BD48851DE3A63 /* LOTPolystarAnimator.m */; };
 		93EE5047223C855F80B34D96D49F5410 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E14FF6A14ECA95E26EBA96C8C9E3A5 /* Animator.swift */; };
-		947EC80BC8E52CA6C31DC550733CFEFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C573E4B3F45924C6FA1766246491C6 /* Foundation.framework */; };
 		94DF95605D41F92BA19D968CFBCBAF3C /* LOTLayerGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB795A4C1FAD885DA248445132F5CF6 /* LOTLayerGroup.m */; };
 		9529194AB681B193444109F0734BAD6A /* LOTTrimPathNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC5D4ABEB98FA704E43FDE484B96CB0 /* LOTTrimPathNode.m */; };
-		95A0F1B0435FCD30DBF44DB026AD5215 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C573E4B3F45924C6FA1766246491C6 /* Foundation.framework */; };
 		95B8A915619301F8D9010BF56563FF5C /* LOTShapeRepeater.m in Sources */ = {isa = PBXBuildFile; fileRef = 356A37968900110C8090C8DF7B271DB8 /* LOTShapeRepeater.m */; };
 		962A16A4390C8237DEF922CEDB6F92FD /* LOTGradientFillRender.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD521DA7208F477A52AF13A3C8A79D3 /* LOTGradientFillRender.m */; };
 		9635B2261EE6F9C5BEE6E293EC851FD5 /* Platform+Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A0CCA7C221EFDF9328EDBCA8B7FF38 /* Platform+Accessibility.swift */; };
@@ -275,6 +272,7 @@
 		A7B424217D3D79BB6B77531BEF2436F0 /* LOTComposition.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB94B05FE772EFCA9A6718C23C3D112 /* LOTComposition.m */; };
 		A835F64FE2B477B2DB5E7D7B59839FFF /* ChartHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3FB7E09ABE911D148D1B03F3E2CD34 /* ChartHighlighter.swift */; };
 		A84BFE6F3AFE5C107EF920E6F14ADD91 /* LOTCircleAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 391950F779703B30DCBEC63B7DFA6EB4 /* LOTCircleAnimator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A8D0F1C3405DD1451822DBEDCB4925BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4294AB6C3F290AFE198901B6F86D4494 /* Foundation.framework */; };
 		A8F1CFB23C765B4A5822B4404615CAD3 /* ChartAnimationEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EA347819330C12B53CD9A554EB6170 /* ChartAnimationEasing.swift */; };
 		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED13D15D7E439890E8642C5BA6925A8C /* Alamofire-dummy.m */; };
 		AA1231D7729F2B3B70E7AE715E40D11D /* BarHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58919E895D856CEA99C4ABF749588DAF /* BarHighlighter.swift */; };
@@ -295,7 +293,6 @@
 		B06594472CCE6F331793C38FCD110043 /* POPBasicAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 09411891E212872E8C193F1EBBC7A012 /* POPBasicAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B06707499E7968EB5901C93FA1ED6C21 /* ScrollableGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D6339CFC25A92176390682732F222E /* ScrollableGraphView.swift */; };
 		B06ED5C68C4B339962C014EC235A1044 /* FillDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A69CA7D3B70C0C6E90CB911113C0FF1 /* FillDrawingLayer.swift */; };
-		B0CFC65FED36CD65561AFCE5A131BC0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB933B286665F829E447407260968D2 /* UIKit.framework */; };
 		B1472D8FD6CBDA59BAFF764AB1ED0962 /* LOTBezierData.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFC035000E342F0F393755DB6F1331A /* LOTBezierData.m */; };
 		B19E9B44FCF75F5BC4FEB3C53FF91E85 /* AnimatedZoomViewJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504124C7ED935A4A23B6ACEB5319D804 /* AnimatedZoomViewJob.swift */; };
 		B327BFB5E5C496D1235FD88310A0239F /* IFillFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867F55A417AD9F9C99797A38B800F93 /* IFillFormatter.swift */; };
@@ -342,6 +339,7 @@
 		C71F35474D5558FF905ABD663EE8F1FC /* KolodaCardStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E78D7D9F317245AFF77D195CC78B0A /* KolodaCardStorage.swift */; };
 		C73BF39A4CCC3E450E102C23027F8FF8 /* UIButton+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB44BD83E4B2B687729C8D8AE93203 /* UIButton+AlamofireImage.swift */; };
 		C79D2F2FCE3EF9B31D1222E0C4A59DC5 /* RightToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B26A1F7A155DA5A9D8D5DB804B42D6 /* RightToLeft.swift */; };
+		C8B4119CE3F578C7FDD78AD1EC996115 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4294AB6C3F290AFE198901B6F86D4494 /* Foundation.framework */; };
 		C8FEFD2FF2E2D99D2B128DCFAF023A2A /* SoundWave-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 224BF6E74066D6B958AD6C1896D7C56B /* SoundWave-dummy.m */; };
 		C913963FC5525842C4FB1ED25BDAA6DE /* LineRadarRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B14514402A294F31F96F8B4FC56E965 /* LineRadarRenderer.swift */; };
 		C95B658D689425ED9DAA95EB479B44A6 /* StarLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C20946BA92033EF4041DC9483FF4CCB /* StarLayer.swift */; };
@@ -350,6 +348,7 @@
 		CA3D95E6FA70BF094CB2C8DF9CEFDB92 /* LOTShapeCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8F63E7D651FBE93B0DC194291367CB /* LOTShapeCircle.m */; };
 		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F4146EB137AA63D26ACDBD75146E56 /* Response.swift */; };
 		CB90834DBF580CC82B1442CC8F936341 /* LabelPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A7AB62072D0F984D4E525511065648 /* LabelPool.swift */; };
+		CB94D36793B25D17761CCE432E2C2330 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4294AB6C3F290AFE198901B6F86D4494 /* Foundation.framework */; };
 		CBC0BA91FCBC3C3000EF6C21D54F6E85 /* LOTMaskContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 45096CE33F875C529244D6342CAE9CAA /* LOTMaskContainer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CBC229DCC038B1527BA8D2109F5E30A8 /* LOTArrayInterpolator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E26E1E7251D145421214D9A2E37B816 /* LOTArrayInterpolator.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CBC692A69545F6DD83B98138DAFBCD8F /* IndexAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497170AA6AA50FF6C7FE491F2001D8A0 /* IndexAxisValueFormatter.swift */; };
@@ -361,8 +360,6 @@
 		CEB764029C2EE19B440DF61D922E85B4 /* POPBasicAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 889E795485156B7B2BAC16932EA2753E /* POPBasicAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF4DFD6D4CE5A99E1E68C8B22985D410 /* ChartBaseDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7323FC9F042CEE56C893B2D02F51E6E6 /* ChartBaseDataSet.swift */; };
 		CFA73D9FCCEAEA809F9DAF3A9F281622 /* BarDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8680B1B470420A0BC2187D6320DB94C9 /* BarDrawingLayer.swift */; };
-		CFEDA7D507C506864C7F3BD287B72134 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C573E4B3F45924C6FA1766246491C6 /* Foundation.framework */; };
-		D018F028E4B59286F13C48DCFD2FC152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C573E4B3F45924C6FA1766246491C6 /* Foundation.framework */; };
 		D04CA03C6C95114F5A0F31FE6A1E8D07 /* LegendRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BBA3A7F64F1F2C6A778705EE57E20 /* LegendRenderer.swift */; };
 		D052DA6BFAE21C6AC04412B26ED1CEC1 /* Bubbles.podspec in Sources */ = {isa = PBXBuildFile; fileRef = 3AE12BAD02C2188AD3D411D43DA91ED4 /* Bubbles.podspec */; };
 		D060EC394FE11B4B004FECF2D1C07AB6 /* ILineChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78B50EF7711262C8AFD37EE5DDBE727 /* ILineChartDataSet.swift */; };
@@ -371,11 +368,11 @@
 		D32505ADD5444141901DF193EAE9E209 /* CALayer+Compat.h in Headers */ = {isa = PBXBuildFile; fileRef = C3F40BCC7E96C19648E8365F8EDE1FC0 /* CALayer+Compat.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D370BBE7013082C69F8E53F6241ADE25 /* LOTLayerContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 845E7E240EC410C99EEFE249854F251E /* LOTLayerContainer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D4817764CE92154DF2934AA6CA4657AA /* RadarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA2CD5938B0E1E7AAEF3171CA996FA /* RadarChartView.swift */; };
-		D54AD2E7B275B428B100E19DCC357DED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C573E4B3F45924C6FA1766246491C6 /* Foundation.framework */; };
 		D5AF5C2BD150D436DECB7200A9BD8273 /* LOTAnimationView_Compat.h in Headers */ = {isa = PBXBuildFile; fileRef = 73343AF46375180E4FF3D5AF6D78F9C4 /* LOTAnimationView_Compat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D694BE38FA9892729647D0C9A2C02798 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEBA5DDA774A7359570F3E53BF08372 /* Renderer.swift */; };
 		D729CB38CDC29F45B2EB39CE8D1D0769 /* ReferenceLineDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614129BA2FB51E2C66F3310D5369F873 /* ReferenceLineDrawingView.swift */; };
 		D88AC9929DC83A76F12C9C504B2641AE /* POPVector.h in Headers */ = {isa = PBXBuildFile; fileRef = B701446F7F32243774055EC881680793 /* POPVector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D976C2F3D92C2AF0738273BEC9A8DCF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4294AB6C3F290AFE198901B6F86D4494 /* Foundation.framework */; };
 		D9E544B8CB42DA8DD44838F83610D8E0 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D41FCA515C38ACC2D18C1C09974308 /* ImageCache.swift */; };
 		DACF26E7166BF973FD69D687C9F3F9E0 /* LegendEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69886F716C25826B3C196A366EEBC8D8 /* LegendEntry.swift */; };
 		DC3A67C98F1F6B68F7AC58AD8F44F37F /* LOTBezierPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B8475B6C0DDDBE01B3924A7CBFC564 /* LOTBezierPath.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -388,6 +385,7 @@
 		DF1E2D12F4703786B8FA63F86A3CA6A4 /* LOTAnimationView_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = EED4B2E505D084BC36CE4374328A7E6A /* LOTAnimationView_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DF2989C3A6173458BF5DB73FBA69DAE4 /* Plot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AACC66FF81E55D17EAC1DF5A10C5103 /* Plot.swift */; };
 		DFBCF35243530698B52653D707FC2F27 /* UIColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C9525ED85D9CF82598632128BE2C797 /* UIColor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DFCB7FD0E1B3082C076C2DBAEC996646 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4294AB6C3F290AFE198901B6F86D4494 /* Foundation.framework */; };
 		DFE4AEB3CC7B085E022B2FDEDC8811EB /* ChartColorTemplates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2672EAF469F411A814FE386D2EC2D3E2 /* ChartColorTemplates.swift */; };
 		E03C4E99C00481A7D694C34515651CED /* LOTPointInterpolator.h in Headers */ = {isa = PBXBuildFile; fileRef = 596D04A64C64862224E329A770E68A3D /* LOTPointInterpolator.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E0BC22E5BDBDD4389A1E22AEEB7993DF /* LOTShapeGradientFill.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DB726A3F4E2EB11964E51DCE905C5AF /* LOTShapeGradientFill.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -422,7 +420,6 @@
 		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D098EE47B0693878F4810E3EC3B38A /* Notifications.swift */; };
 		F1F92C366C3DC310792F9A00E0D53B59 /* LOTTransformInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6617F5027FBD3D53D49655DD4A454B /* LOTTransformInterpolator.m */; };
 		F20E5DBEDF44FB2A2E46563502D56BA7 /* ScatterChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7E809873E501104D17BDE5B2A763DD /* ScatterChartData.swift */; };
-		F2E763A6845FD660BA25D899570F3226 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C573E4B3F45924C6FA1766246491C6 /* Foundation.framework */; };
 		F48A25BC786D3CA8438F42A75DB09265 /* LOTShapeTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A9BA6963DCAE687F378184D2448B5 /* LOTShapeTransform.m */; };
 		F57BBD2023C5966CB110624B88167218 /* POPAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8932933919018E828C90E928E3C3F023 /* POPAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F66DE3EF01408C42C115587B201CB541 /* CosmosLayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C27CB84B12A457984174F9B79A0920 /* CosmosLayerHelper.swift */; };
@@ -438,6 +435,9 @@
 		FBF3E71926823BD564BD4F245EEFC4D3 /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 26A87BE937AA1BB6FB82C9FBE659CE54 /* POPSpringAnimation.mm */; };
 		FC49630BA92473C9EE74CDFC270893DB /* CSFloatingNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E410F8D12E45ED39DB97343E34BFC054 /* CSFloatingNode.swift */; };
 		FC5B12D7B6CEB6F40779F66856FBB041 /* LineChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECFF63CBF814D277C6865E91D4E66ED /* LineChartDataProvider.swift */; };
+		FCB791E8D64773EA20EAAA9EF5F24CCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720F35AA2DDE6E498DEA67CEE1F8DD2C /* UIKit.framework */; };
+		FF9537ED01DC589863454D2ADD1584E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4294AB6C3F290AFE198901B6F86D4494 /* Foundation.framework */; };
+		FFBBF536E91FD98A1373CC8708DD8092 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4294AB6C3F290AFE198901B6F86D4494 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -659,6 +659,7 @@
 		40DA1113845E7E30ED06AAC257D66C81 /* pop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = pop.xcconfig; sourceTree = "<group>"; };
 		4145E80CD3629F664C156A8FCA24F013 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		42255C581A57D72CFDAAA04F06984C69 /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationRuntime.mm; path = pop/POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		4294AB6C3F290AFE198901B6F86D4494 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		42ECC30557CFB43FD4785156EAF0158B /* POPMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPMath.h; path = pop/POPMath.h; sourceTree = "<group>"; };
 		42F2144980841708F3291B331CEC22B8 /* CosmosView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosView.swift; path = Cosmos/CosmosView.swift; sourceTree = "<group>"; };
 		42F97AB978B0A4345B4375EEABD10B83 /* CombinedChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombinedChartRenderer.swift; path = Source/Charts/Renderers/CombinedChartRenderer.swift; sourceTree = "<group>"; };
@@ -760,6 +761,7 @@
 		715A28C8FECF98E05B90A62064BCD5DF /* LOTAnimationCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOTAnimationCache.m; path = "lottie-ios/Classes/Private/LOTAnimationCache.m"; sourceTree = "<group>"; };
 		71C3B4A9C53FFED6266A168E8E13656D /* BarChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartRenderer.swift; path = Source/Charts/Renderers/BarChartRenderer.swift; sourceTree = "<group>"; };
 		71DADB6460270F628ABA436E75E99167 /* AudioVisualizationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioVisualizationView.swift; path = SoundWave/Classes/AudioVisualizationView.swift; sourceTree = "<group>"; };
+		720F35AA2DDE6E498DEA67CEE1F8DD2C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		72A0A6B2BEF762681AF299DB6C717B2B /* LOTAnimatedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOTAnimatedControl.m; path = "lottie-ios/Classes/Private/LOTAnimatedControl.m"; sourceTree = "<group>"; };
 		72CF4B304E8BB981057B05678DF94B4A /* IScatterChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IScatterChartDataSet.swift; path = Source/Charts/Data/Interfaces/IScatterChartDataSet.swift; sourceTree = "<group>"; };
 		7323FC9F042CEE56C893B2D02F51E6E6 /* ChartBaseDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartBaseDataSet.swift; path = Source/Charts/Data/Implementations/ChartBaseDataSet.swift; sourceTree = "<group>"; };
@@ -815,7 +817,6 @@
 		8E2E1F128C4DE0CA39E3541ECE24E357 /* BubbleChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/BubbleChartDataSet.swift; sourceTree = "<group>"; };
 		8E3892B9098C966CB12FB535B8B621DC /* CSBubblesView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSBubblesView.swift; path = Bubbles/CSBubblesView.swift; sourceTree = "<group>"; };
 		8F93F81A8FAFCCF2E5A2B1BBD40E6516 /* LOTPathAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOTPathAnimator.m; path = "lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTPathAnimator.m"; sourceTree = "<group>"; };
-		8FB933B286665F829E447407260968D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		90210AF1747C4B325FB9D4F785FEB6DB /* LOTValueDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOTValueDelegate.h; path = "lottie-ios/Classes/PublicHeaders/LOTValueDelegate.h"; sourceTree = "<group>"; };
 		906A76EBDF91C5ADE2D34A3056F0CA11 /* Pods-Torq-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Torq-resources.sh"; sourceTree = "<group>"; };
 		90F212610D4824CB14371A294EB51A17 /* LOTShapeFill.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOTShapeFill.m; path = "lottie-ios/Classes/Models/LOTShapeFill.m"; sourceTree = "<group>"; };
@@ -999,7 +1000,6 @@
 		F72802F464EE72DD41713801B3CE5BE1 /* XAxisRendererHorizontalBarChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XAxisRendererHorizontalBarChart.swift; path = Source/Charts/Renderers/XAxisRendererHorizontalBarChart.swift; sourceTree = "<group>"; };
 		F7B26A1F7A155DA5A9D8D5DB804B42D6 /* RightToLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RightToLeft.swift; path = Cosmos/Helpers/RightToLeft.swift; sourceTree = "<group>"; };
 		F91DAD7ABF7FEE4B6C3CE432F7831C2A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F9C573E4B3F45924C6FA1766246491C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F9D08680D041180155C1C442A3F6645A /* SoundWave.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SoundWave.xcconfig; sourceTree = "<group>"; };
 		FA9F1D57A396A5463781340E47A5B96C /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Source/Image.swift; sourceTree = "<group>"; };
 		FAABF51F01B630D4DB0722D3D95386AA /* ChartDataEntryBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartDataEntryBase.swift; path = Source/Charts/Data/Implementations/Standard/ChartDataEntryBase.swift; sourceTree = "<group>"; };
@@ -1015,7 +1015,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				947EC80BC8E52CA6C31DC550733CFEFC /* Foundation.framework in Frameworks */,
+				8FA0E1F7C260E0C03DDE825E3605D320 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1023,7 +1023,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D018F028E4B59286F13C48DCFD2FC152 /* Foundation.framework in Frameworks */,
+				C8B4119CE3F578C7FDD78AD1EC996115 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1031,7 +1031,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D54AD2E7B275B428B100E19DCC357DED /* Foundation.framework in Frameworks */,
+				A8D0F1C3405DD1451822DBEDCB4925BC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1039,7 +1039,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50BFD284C753CB377E6865BE98686CB5 /* Foundation.framework in Frameworks */,
+				FFBBF536E91FD98A1373CC8708DD8092 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1047,7 +1047,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26D94A340D58D11C1C6D63AA5069F9ED /* Foundation.framework in Frameworks */,
+				CB94D36793B25D17761CCE432E2C2330 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1055,8 +1055,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95A0F1B0435FCD30DBF44DB026AD5215 /* Foundation.framework in Frameworks */,
-				B0CFC65FED36CD65561AFCE5A131BC0E /* UIKit.framework in Frameworks */,
+				75DAD65B0EFEE8D22D9FBF8C5A76062D /* Foundation.framework in Frameworks */,
+				FCB791E8D64773EA20EAAA9EF5F24CCB /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1064,7 +1064,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				834F4D9819C6010E611A7E151B8899C3 /* Foundation.framework in Frameworks */,
+				73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1072,7 +1072,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31ABD52A262CFDC1E0F1F67A6E9F5BA1 /* Foundation.framework in Frameworks */,
+				FF9537ED01DC589863454D2ADD1584E7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1080,7 +1080,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8000F702FA4385B4CE4CA9C38CE70B1F /* Foundation.framework in Frameworks */,
+				D976C2F3D92C2AF0738273BEC9A8DCF0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1089,7 +1089,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				613167D898FF421A6F75D1FE5D145B9B /* Alamofire.framework in Frameworks */,
-				CFEDA7D507C506864C7F3BD287B72134 /* Foundation.framework in Frameworks */,
+				26479B07464784F3BF8C0853CA049976 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1097,9 +1097,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2E763A6845FD660BA25D899570F3226 /* Foundation.framework in Frameworks */,
+				DFCB7FD0E1B3082C076C2DBAEC996646 /* Foundation.framework in Frameworks */,
 				AA48641E8143E993055BEFDCA88DFCA9 /* pop.framework in Frameworks */,
-				12F90E6E9739CB5B1A7D5C727BDB1DC3 /* UIKit.framework in Frameworks */,
+				749FE23ED589F816864B98310C3DBBE7 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1130,15 +1130,6 @@
 			);
 			name = Alamofire;
 			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		14AFC0700CAD0892098D3EE48DC960C3 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				F9C573E4B3F45924C6FA1766246491C6 /* Foundation.framework */,
-				8FB933B286665F829E447407260968D2 /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		1BD40E15EB213C28AB54F89A5A8E6328 /* Core */ = {
@@ -1322,6 +1313,15 @@
 			path = Cosmos;
 			sourceTree = "<group>";
 		};
+		422F35FC25A438BB5EE39D72FE92EE8B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4294AB6C3F290AFE198901B6F86D4494 /* Foundation.framework */,
+				720F35AA2DDE6E498DEA67CEE1F8DD2C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		4723EAC40DC37C1B91AAA87FD62F0EAC /* Charts */ = {
 			isa = PBXGroup;
 			children = (
@@ -1394,7 +1394,7 @@
 			children = (
 				8088551FE817C83C3D13DD834BDA2FAC /* Alamofire.framework */,
 				CB6CFB45AA2638B6B96CB52C4576B087 /* pop.framework */,
-				14AFC0700CAD0892098D3EE48DC960C3 /* iOS */,
+				422F35FC25A438BB5EE39D72FE92EE8B /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2736,11 +2736,7 @@
 				INFOPLIST_FILE = "Target Support Files/lottie-ios/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/lottie-ios/lottie-ios.modulemap";
 				PRODUCT_MODULE_NAME = Lottie;
 				PRODUCT_NAME = Lottie;
@@ -2835,11 +2831,7 @@
 				INFOPLIST_FILE = "Target Support Files/Koloda/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Koloda/Koloda.modulemap";
 				PRODUCT_MODULE_NAME = Koloda;
 				PRODUCT_NAME = Koloda;
@@ -2872,11 +2864,7 @@
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				PRODUCT_MODULE_NAME = Alamofire;
 				PRODUCT_NAME = Alamofire;
@@ -2909,11 +2897,7 @@
 				INFOPLIST_FILE = "Target Support Files/ScrollableGraphView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ScrollableGraphView/ScrollableGraphView.modulemap";
 				PRODUCT_MODULE_NAME = ScrollableGraphView;
 				PRODUCT_NAME = ScrollableGraphView;
@@ -2945,11 +2929,7 @@
 				INFOPLIST_FILE = "Target Support Files/Charts/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Charts/Charts.modulemap";
 				PRODUCT_MODULE_NAME = Charts;
 				PRODUCT_NAME = Charts;
@@ -2981,11 +2961,7 @@
 				INFOPLIST_FILE = "Target Support Files/Cosmos/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
 				PRODUCT_MODULE_NAME = Cosmos;
 				PRODUCT_NAME = Cosmos;
@@ -3018,11 +2994,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-Torq/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Torq/Pods-Torq.modulemap";
 				OTHER_LDFLAGS = "";
@@ -3057,11 +3029,7 @@
 				INFOPLIST_FILE = "Target Support Files/SoundWave/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SoundWave/SoundWave.modulemap";
 				PRODUCT_MODULE_NAME = SoundWave;
 				PRODUCT_NAME = SoundWave;
@@ -3094,11 +3062,7 @@
 				INFOPLIST_FILE = "Target Support Files/SoundWave/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SoundWave/SoundWave.modulemap";
 				PRODUCT_MODULE_NAME = SoundWave;
 				PRODUCT_NAME = SoundWave;
@@ -3130,11 +3094,7 @@
 				INFOPLIST_FILE = "Target Support Files/lottie-ios/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/lottie-ios/lottie-ios.modulemap";
 				PRODUCT_MODULE_NAME = Lottie;
 				PRODUCT_NAME = Lottie;
@@ -3165,11 +3125,7 @@
 				INFOPLIST_FILE = "Target Support Files/pop/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/pop/pop.modulemap";
 				PRODUCT_MODULE_NAME = pop;
 				PRODUCT_NAME = pop;
@@ -3201,11 +3157,7 @@
 				INFOPLIST_FILE = "Target Support Files/Bubbles/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Bubbles/Bubbles.modulemap";
 				PRODUCT_MODULE_NAME = Bubbles;
 				PRODUCT_NAME = Bubbles;
@@ -3239,11 +3191,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-Torq/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Torq/Pods-Torq.modulemap";
 				OTHER_LDFLAGS = "";
@@ -3278,11 +3226,7 @@
 				INFOPLIST_FILE = "Target Support Files/AlamofireImage/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AlamofireImage/AlamofireImage.modulemap";
 				PRODUCT_MODULE_NAME = AlamofireImage;
 				PRODUCT_NAME = AlamofireImage;
@@ -3314,11 +3258,7 @@
 				INFOPLIST_FILE = "Target Support Files/Cosmos/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
 				PRODUCT_MODULE_NAME = Cosmos;
 				PRODUCT_NAME = Cosmos;
@@ -3351,11 +3291,7 @@
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				PRODUCT_MODULE_NAME = Alamofire;
 				PRODUCT_NAME = Alamofire;
@@ -3446,11 +3382,7 @@
 				INFOPLIST_FILE = "Target Support Files/Bubbles/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Bubbles/Bubbles.modulemap";
 				PRODUCT_MODULE_NAME = Bubbles;
 				PRODUCT_NAME = Bubbles;
@@ -3482,11 +3414,7 @@
 				INFOPLIST_FILE = "Target Support Files/AlamofireImage/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AlamofireImage/AlamofireImage.modulemap";
 				PRODUCT_MODULE_NAME = AlamofireImage;
 				PRODUCT_NAME = AlamofireImage;
@@ -3519,11 +3447,7 @@
 				INFOPLIST_FILE = "Target Support Files/pop/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/pop/pop.modulemap";
 				PRODUCT_MODULE_NAME = pop;
 				PRODUCT_NAME = pop;
@@ -3555,11 +3479,7 @@
 				INFOPLIST_FILE = "Target Support Files/ScrollableGraphView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ScrollableGraphView/ScrollableGraphView.modulemap";
 				PRODUCT_MODULE_NAME = ScrollableGraphView;
 				PRODUCT_NAME = ScrollableGraphView;
@@ -3592,11 +3512,7 @@
 				INFOPLIST_FILE = "Target Support Files/Koloda/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Koloda/Koloda.modulemap";
 				PRODUCT_MODULE_NAME = Koloda;
 				PRODUCT_NAME = Koloda;
@@ -3628,11 +3544,7 @@
 				INFOPLIST_FILE = "Target Support Files/Charts/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Charts/Charts.modulemap";
 				PRODUCT_MODULE_NAME = Charts;
 				PRODUCT_NAME = Charts;
