@@ -25,8 +25,11 @@ class CarDataViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        lblTitle.setTitle("\(car?.brand) \(car?.model)", for: UIControl.State.normal)
-        
+        if let car = self.car {
+            lblTitle.setTitle("\(car.brand) \(car.model)", for: UIControl.State.normal)
+        } else {
+            lblTitle.setTitle("Meu Carro", for: UIControl.State.normal)
+        }
         carDataCollectionView.delegate = self
         carDataCollectionView.dataSource = self
         carDataCollectionView.reloadData()

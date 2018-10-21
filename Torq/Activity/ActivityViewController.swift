@@ -10,10 +10,17 @@ import UIKit
 
 class ActivityViewController: UITableViewController {
 
+    @IBOutlet weak var btnCarModel: UIButton!
     var car: Car?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if let car = self.car {
+            btnCarModel.setTitle("\(car.brand) \(car.model)", for: UIControl.State.normal)
+        } else {
+            btnCarModel.setTitle("Meu Carro", for: UIControl.State.normal)
+        }
     }
 
     @IBAction func changeCar(_ sender: Any) {

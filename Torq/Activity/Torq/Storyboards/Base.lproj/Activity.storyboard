@@ -44,9 +44,9 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SrV-Yf-cQD">
-                                                    <rect key="frame" x="16" y="8" width="180" height="43"/>
+                                                    <rect key="frame" x="16" y="8" width="155" height="43"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                                    <state key="normal" title="Honda Civic">
+                                                    <state key="normal" title="Meu Carro">
                                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
                                                     <connections>
@@ -332,6 +332,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Ativadades" id="ptF-IG-Afd"/>
+                    <connections>
+                        <outlet property="btnCarModel" destination="SrV-Yf-cQD" id="VlJ-K1-rZq"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PNk-Vy-fAM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
