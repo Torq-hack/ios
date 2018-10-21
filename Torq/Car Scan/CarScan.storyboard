@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.23.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OCD-HD-jhS">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,15 +15,62 @@
             <objects>
                 <viewController id="OCD-HD-jhS" customClass="CarScanViewController" customModule="Torq" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L1l-dp-3aW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="elf-oZ-Xd2" customClass="CognitiveCameraView" customModule="Torq" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="kkQ-3m-v15" appends="YES" id="Kz7-S4-rDh"/>
+                                </connections>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="DbV-95-sPL"/>
                     </view>
+                    <connections>
+                        <outlet property="cognitiveCameraView" destination="elf-oZ-Xd2" id="IaP-W1-tfh"/>
+                        <segue destination="bc9-BZ-JNa" kind="show" identifier="toScanResultVC" id="Nog-dd-nF0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bvI-FH-iEi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="kkQ-3m-v15">
+                    <connections>
+                        <action selector="tappedScreen:" destination="OCD-HD-jhS" id="meq-gf-wI5"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="174" y="-436"/>
+            <point key="canvasLocation" x="169.56521739130437" y="-436.95652173913049"/>
+        </scene>
+        <!--Car Scan Result View Controller-->
+        <scene sceneID="O5a-Wd-wsl">
+            <objects>
+                <viewController id="bc9-BZ-JNa" customClass="CarScanResultViewController" customModule="Torq" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zcb-p3-1QJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Voa-ei-NZW">
+                                <rect key="frame" x="20" y="153" width="382" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="QRf-Ox-RWW"/>
+                    </view>
+                    <connections>
+                        <outlet property="resultLabel" destination="Voa-ei-NZW" id="ZHu-mc-wLI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mnX-HX-atI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1044.9275362318842" y="-437.77173913043481"/>
         </scene>
     </scenes>
 </document>

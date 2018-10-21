@@ -6,5 +6,8 @@ target 'Torq' do
   use_frameworks!
 
   # Pods for Torq
-
+  pod 'SoundWave'
+  
+  post_install do |installer|
+  end
 end

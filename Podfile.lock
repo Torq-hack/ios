@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: a6dcd81c159158882c8d5cf3c5476387c91f621a
+PODS:
+  - SoundWave (0.1.2)
+
+DEPENDENCIES:
+  - SoundWave
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SoundWave
+
+SPEC CHECKSUMS:
+  SoundWave: 74af192045482ba1b881c6fd063655bb46162fa0
+
+PODFILE CHECKSUM: 7987113e6cf11d6e35aef00ad4fb68ff7bf7faf2
 
 COCOAPODS: 1.5.3
