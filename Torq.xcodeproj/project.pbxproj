@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E55958D217C138000E24998 /* CarCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E55958C217C138000E24998 /* CarCategory.swift */; };
+		3E55958F217C153900E24998 /* CarCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E55958E217C153900E24998 /* CarCategoryCollectionViewCell.swift */; };
+		3E559591217C1B3600E24998 /* CarCategoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E559590217C1B3600E24998 /* CarCategoryDetailViewController.swift */; };
+		3EB803DF217C2E1300CEF34A /* CarPriceHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB803DE217C2E1300CEF34A /* CarPriceHistoryViewController.swift */; };
+		3EB803E2217C30EA00CEF34A /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB803E1217C30EA00CEF34A /* Car.swift */; };
 		57018EB5217BF8E600E65DCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57018EB4217BF8E600E65DCD /* AppDelegate.swift */; };
 		57018EBA217BF8E600E65DCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57018EB8217BF8E600E65DCD /* Main.storyboard */; };
 		57018EBC217BF8E700E65DCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57018EBB217BF8E700E65DCD /* Assets.xcassets */; };
@@ -24,6 +29,11 @@
 
 /* Begin PBXFileReference section */
 		33F76E4F780980BAA054F496 /* Pods_Torq.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Torq.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E55958C217C138000E24998 /* CarCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCategory.swift; sourceTree = "<group>"; };
+		3E55958E217C153900E24998 /* CarCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		3E559590217C1B3600E24998 /* CarCategoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCategoryDetailViewController.swift; sourceTree = "<group>"; };
+		3EB803DE217C2E1300CEF34A /* CarPriceHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPriceHistoryViewController.swift; sourceTree = "<group>"; };
+		3EB803E1217C30EA00CEF34A /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		57018EB1217BF8E600E65DCD /* Torq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Torq.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57018EB4217BF8E600E65DCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57018EB9217BF8E600E65DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +64,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EB803E0217C30DC00CEF34A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E55958C217C138000E24998 /* CarCategory.swift */,
+				3EB803E1217C30EA00CEF34A /* Car.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		57018EA8217BF8E600E65DCD = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +94,7 @@
 		57018EB3217BF8E600E65DCD /* Torq */ = {
 			isa = PBXGroup;
 			children = (
+				3EB803E0217C30DC00CEF34A /* Models */,
 				57018EDA217BFC8200E65DCD /* Car Scan */,
 				57018ED8217BFC5C00E65DCD /* Analizer */,
 				57018EB8217BF8E600E65DCD /* Main.storyboard */,
@@ -102,6 +122,9 @@
 			children = (
 				57018ED1217BFB8300E65DCD /* CarData.storyboard */,
 				57018ECA217BFAD400E65DCD /* CarDataViewController.swift */,
+				3E55958E217C153900E24998 /* CarCategoryCollectionViewCell.swift */,
+				3E559590217C1B3600E24998 /* CarCategoryDetailViewController.swift */,
+				3EB803DE217C2E1300CEF34A /* CarPriceHistoryViewController.swift */,
 			);
 			path = "Car Data";
 			sourceTree = "<group>";
@@ -168,6 +191,7 @@
 				57018EAD217BF8E600E65DCD /* Sources */,
 				57018EAE217BF8E600E65DCD /* Frameworks */,
 				57018EAF217BF8E600E65DCD /* Resources */,
+				C6B9800458D4FEEF58F24B8F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,6 +253,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		C6B9800458D4FEEF58F24B8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Torq/Pods-Torq-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Torq/Pods-Torq-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E2AE908D4C673BFB77684B12 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,8 +300,13 @@
 			files = (
 				57018EDE217BFD0200E65DCD /* CarScanViewController.swift in Sources */,
 				57018ECD217BFAF700E65DCD /* ExploreViewController.swift in Sources */,
+				3EB803E2217C30EA00CEF34A /* Car.swift in Sources */,
 				57018EC9217BFA9E00E65DCD /* ActivityViewController.swift in Sources */,
+				3EB803DF217C2E1300CEF34A /* CarPriceHistoryViewController.swift in Sources */,
 				57018EB5217BF8E600E65DCD /* AppDelegate.swift in Sources */,
+				3E55958D217C138000E24998 /* CarCategory.swift in Sources */,
+				3E55958F217C153900E24998 /* CarCategoryCollectionViewCell.swift in Sources */,
+				3E559591217C1B3600E24998 /* CarCategoryDetailViewController.swift in Sources */,
 				57018ECB217BFAD400E65DCD /* CarDataViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,7 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6F983ZW9E9;
+				DEVELOPMENT_TEAM = 6S2QHFGTQK;
 				INFOPLIST_FILE = "$(SRCROOT)/Torq/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -433,7 +482,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6F983ZW9E9;
+				DEVELOPMENT_TEAM = 6S2QHFGTQK;
 				INFOPLIST_FILE = "$(SRCROOT)/Torq/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

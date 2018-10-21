@@ -6,5 +6,7 @@ target 'Torq' do
   use_frameworks!
 
   # Pods for Torq
+  pod 'Cosmos', '~> 17.0'
+  pod 'Charts'
 
 end
