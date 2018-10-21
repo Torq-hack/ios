@@ -15,6 +15,7 @@ class ExploreViewController: UIViewController {
     @IBOutlet weak var kolodaView: KolodaView!
     @IBOutlet weak var outCardView: UIView!
     @IBOutlet weak var btnReverse: UIButton!
+    @IBOutlet weak var bankOfferView: UIView!
     
     var cars = [Car]()
     
@@ -22,11 +23,14 @@ class ExploreViewController: UIViewController {
         super.viewDidLoad()
         kolodaView.dataSource = self
         kolodaView.delegate = self
+        reloadCarsFromServer()
     }
 
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        reloadCarsFromServer()
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        bankOfferView.layer.cornerRadius = 10
+        bankOfferView.layer.borderColor = UIColor.lightGray.cgColor
+        bankOfferView.layer.borderWidth = 2
     }
 
     func reloadCarsFromServer() {
@@ -35,7 +39,6 @@ class ExploreViewController: UIViewController {
             do {
                 let decoder = JSONDecoder()
                 self.cars = try decoder.decode([Car].self, from: data)
-                print("Data: \( self.cars )")
                 DispatchQueue.main.async{
                     self.btnReverse.isHidden = false
                     self.outCardView.isHidden = true

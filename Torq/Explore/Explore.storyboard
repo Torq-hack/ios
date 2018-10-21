@@ -74,7 +74,7 @@
                                 </constraints>
                             </view>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Su-qC-U51">
-                                <rect key="frame" x="177" y="644" width="60" height="60"/>
+                                <rect key="frame" x="57" y="534" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="miE-3X-fCx"/>
                                     <constraint firstAttribute="height" constant="60" id="q7f-KP-5nC"/>
@@ -118,12 +118,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="jBm-DN-0oM" firstAttribute="centerX" secondItem="i3q-qq-jWC" secondAttribute="centerX" id="Dm7-hW-NOE"/>
+                            <constraint firstItem="6Su-qC-U51" firstAttribute="top" secondItem="l93-X0-Pz6" secondAttribute="bottom" constant="16" id="K6U-Zm-TRR"/>
                             <constraint firstItem="WSb-Ly-j5a" firstAttribute="leading" secondItem="gIy-F7-GCd" secondAttribute="leading" id="TfQ-vH-XZF"/>
                             <constraint firstItem="l93-X0-Pz6" firstAttribute="centerY" secondItem="i3q-qq-jWC" secondAttribute="centerY" id="U0J-TC-0kU"/>
-                            <constraint firstItem="gIy-F7-GCd" firstAttribute="bottom" secondItem="6Su-qC-U51" secondAttribute="bottom" constant="32" id="Zbz-za-xRv"/>
-                            <constraint firstItem="6Su-qC-U51" firstAttribute="centerX" secondItem="i3q-qq-jWC" secondAttribute="centerX" id="h4K-Da-w28"/>
                             <constraint firstItem="l93-X0-Pz6" firstAttribute="centerX" secondItem="i3q-qq-jWC" secondAttribute="centerX" id="hGe-B8-Wsv"/>
+                            <constraint firstItem="l93-X0-Pz6" firstAttribute="top" secondItem="WSb-Ly-j5a" secondAttribute="bottom" constant="118" id="lfh-88-3eH"/>
                             <constraint firstItem="WSb-Ly-j5a" firstAttribute="top" secondItem="gIy-F7-GCd" secondAttribute="top" id="nxE-fH-fYX"/>
+                            <constraint firstItem="6Su-qC-U51" firstAttribute="leading" secondItem="l93-X0-Pz6" secondAttribute="leading" id="oET-dh-3jU"/>
                             <constraint firstItem="jBm-DN-0oM" firstAttribute="centerY" secondItem="i3q-qq-jWC" secondAttribute="centerY" id="q19-Kh-0VY"/>
                             <constraint firstItem="gIy-F7-GCd" firstAttribute="trailing" secondItem="WSb-Ly-j5a" secondAttribute="trailing" id="rX7-D1-4HZ"/>
                         </constraints>
@@ -132,6 +133,7 @@
                     <tabBarItem key="tabBarItem" title="Explore" id="aBG-4g-0xJ"/>
                     <navigationItem key="navigationItem" title="Explorar" id="jm0-jx-cW2"/>
                     <connections>
+                        <outlet property="bankOfferView" destination="WSb-Ly-j5a" id="xTY-ax-ZMK"/>
                         <outlet property="btnReverse" destination="6Su-qC-U51" id="XRD-me-9Hn"/>
                         <outlet property="kolodaView" destination="l93-X0-Pz6" id="MKs-Zy-77a"/>
                         <outlet property="outCardView" destination="jBm-DN-0oM" id="Z1D-ur-xiO"/>
@@ -194,11 +196,11 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dzv-4Y-YxU">
-                                <rect key="frame" x="96" y="650" width="221" height="47"/>
+                                <rect key="frame" x="96" y="600" width="221" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
-                                <state key="normal" title="Finish">
+                                <state key="normal" title="Continuar">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -207,7 +209,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="ukL-WA-fwy" kind="show" id="cHJ-AX-fWH"/>
+                                    <segue destination="ukL-WA-fwy" kind="show" id="aB4-M7-hKX"/>
                                 </connections>
                             </button>
                         </subviews>

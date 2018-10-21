@@ -21,6 +21,14 @@
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xmp-oY-6Gd">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QBm-t7-WHM">
+                                <rect key="frame" x="20" y="20" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="icons8-cancel-filled-100"/>
+                                <connections>
+                                    <action selector="closePressed:" destination="dm6-Fk-r5Y" eventType="touchUpInside" id="Ond-Ow-xHE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -40,4 +48,7 @@
             <point key="canvasLocation" x="69.565217391304358" y="214.4021739130435"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icons8-cancel-filled-100" width="75" height="75"/>
+    </resources>
 </document>

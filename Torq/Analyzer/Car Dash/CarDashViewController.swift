@@ -34,6 +34,10 @@ class CarDashViewController: UIViewController {
         configureLighting()
     }
     
+    @IBAction func closePressed(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     func configureLighting() {
         sceneView.autoenablesDefaultLighting = true
         sceneView.automaticallyUpdatesLighting = true
@@ -86,7 +90,7 @@ extension CarDashViewController: ARSCNViewDelegate {
             overlayNode.runAction(self.fadeInOut)
             node.addChildNode(overlayNode)
             print("Image detected: \"\(imageName)\"")
-            Timer.scheduledTimer(withTimeInterval: 5, repeats: false, block: { (timer) in
+            Timer.scheduledTimer(withTimeInterval: 3, repeats: false, block: { (timer) in
                 timer.invalidate()
                 self.resetTrackingConfiguration()
             })

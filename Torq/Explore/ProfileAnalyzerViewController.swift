@@ -46,6 +46,7 @@ class ProfileAnalyzerViewController: UIViewController {
     }
     
     @IBAction func actionPressed(_ sender: UIButton) {
+        
     }
     
     @objc func bubbleWasSelected(notification: NSNotification) {

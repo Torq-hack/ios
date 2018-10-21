@@ -22,12 +22,14 @@ class CarScanResultViewController: UIViewController {
             brand = resultComponents[0].capitalizingFirstLetter()
             model = resultComponents[1].capitalizingFirstLetter()
             year = resultComponents[2]
-
+            car = Car(brand:brand, model: model, year: Int(year)!)
         }
     }
     var brand: String!
     var model: String!
     var year: String!
+    
+    var car: Car!
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -40,5 +42,12 @@ class CarScanResultViewController: UIViewController {
         detailLabel.text = "\(segment) - \(year!)"
         brandImageView.image = UIImage(named: "\(brand!)Logo")
         carImageView.image = UIImage(named: "\(model!)Profile")
+    }
+    
+    @IBAction func showMain(_ sender: Any) {
+        AppInfo.shared.car = self.car
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        UIApplication.shared.keyWindow?.rootViewController = sb.instantiateInitialViewController()
+        UIApplication.shared.keyWindow?.makeKeyAndVisible()
     }
 }

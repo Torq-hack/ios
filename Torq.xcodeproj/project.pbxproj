@@ -33,6 +33,7 @@
 		5773CA20217C8D120065785F /* CarDashAnalyzer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5773CA1F217C8D120065785F /* CarDashAnalyzer.storyboard */; };
 		5773CA22217C8D720065785F /* CarDashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5773CA21217C8D720065785F /* CarDashViewController.swift */; };
 		5773CA24217C8F370065785F /* CarDashLights.scn in Resources */ = {isa = PBXBuildFile; fileRef = 5773CA23217C8F370065785F /* CarDashLights.scn */; };
+		5773CA28217CA1A80065785F /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5773CA27217CA1A80065785F /* AppInfo.swift */; };
 		579F12E0217C4EB400CA7B79 /* CarClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 579F12DF217C4EB400CA7B79 /* CarClassifier.mlmodel */; };
 		57A83327217C06EE001DDB7F /* NoiseAnalyzer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A83326217C06EE001DDB7F /* NoiseAnalyzer.storyboard */; };
 		57A83329217C071B001DDB7F /* NoiseAnalyzerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A83328217C071B001DDB7F /* NoiseAnalyzerViewController.swift */; };
@@ -74,6 +75,7 @@
 		5773CA1F217C8D120065785F /* CarDashAnalyzer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarDashAnalyzer.storyboard; sourceTree = "<group>"; };
 		5773CA21217C8D720065785F /* CarDashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDashViewController.swift; sourceTree = "<group>"; };
 		5773CA23217C8F370065785F /* CarDashLights.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = CarDashLights.scn; sourceTree = "<group>"; };
+		5773CA27217CA1A80065785F /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
 		579F12DF217C4EB400CA7B79 /* CarClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CarClassifier.mlmodel; sourceTree = "<group>"; };
 		57A83326217C06EE001DDB7F /* NoiseAnalyzer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NoiseAnalyzer.storyboard; sourceTree = "<group>"; };
 		57A83328217C071B001DDB7F /* NoiseAnalyzerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoiseAnalyzerViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			children = (
 				3E55958C217C138000E24998 /* CarCategory.swift */,
 				3EB803E1217C30EA00CEF34A /* Car.swift */,
+				5773CA27217CA1A80065785F /* AppInfo.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -154,8 +157,8 @@
 				57018EDA217BFC8200E65DCD /* Car Scan */,
 				57018ED8217BFC5C00E65DCD /* Analyzer */,
 				57018EB8217BF8E600E65DCD /* Main.storyboard */,
-				57018ED5217BFBCE00E65DCD /* Car Data */,
 				57018ED6217BFBDA00E65DCD /* Activity */,
+				57018ED5217BFBCE00E65DCD /* Car Data */,
 				57018ED7217BFBE100E65DCD /* Explore */,
 				57018EC6217BFA4400E65DCD /* Supporting Files */,
 			);
@@ -428,6 +431,7 @@
 				57A86CCE217C3B9100AC6183 /* CarScanResultViewController.swift in Sources */,
 				5773CA22217C8D720065785F /* CarDashViewController.swift in Sources */,
 				57018EDE217BFD0200E65DCD /* CarScanViewController.swift in Sources */,
+				5773CA28217CA1A80065785F /* AppInfo.swift in Sources */,
 				57589521217C5D6D00C4978F /* ProfileAnalyzerViewController.swift in Sources */,
 				579F12E0217C4EB400CA7B79 /* CarClassifier.mlmodel in Sources */,
 				57A86CCC217C34A300AC6183 /* CognitiveCameraView.swift in Sources */,
