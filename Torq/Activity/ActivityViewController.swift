@@ -16,6 +16,7 @@ class ActivityViewController: UITableViewController {
         super.viewDidLoad()
         self.car = AppInfo.shared.car
         self.title = "\(car.brand) \(car.model)"
+        self.tabBarItem.image = UIImage(named: "activityTab")
     }
     
     func showCarOptions() {

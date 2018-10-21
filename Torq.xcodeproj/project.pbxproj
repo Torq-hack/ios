@@ -205,8 +205,8 @@
 				3EC25666217C43CE006CA7C5 /* Views */,
 				57018ED3217BFBA600E65DCD /* Explore.storyboard */,
 				57589520217C5D6D00C4978F /* ProfileAnalyzerViewController.swift */,
-				57018ECC217BFAF700E65DCD /* ExploreViewController.swift */,
 				57ED9304217C74C1004D0A13 /* BroadcastViewController.swift */,
+				57018ECC217BFAF700E65DCD /* ExploreViewController.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";

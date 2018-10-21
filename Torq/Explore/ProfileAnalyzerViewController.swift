@@ -52,7 +52,7 @@ class ProfileAnalyzerViewController: UIViewController {
     @objc func bubbleWasSelected(notification: NSNotification) {
         print(notification.object as! String)
         numberSelected += 1
-        if numberSelected == 5 {
+        if numberSelected >= 5 {
             finishButton.backgroundColor = #colorLiteral(red: 0.9176470588, green: 0.03137254902, blue: 0.1882352941, alpha: 1)
             finishButton.isEnabled = true
         }

@@ -26,6 +26,7 @@ class CarDataViewController: UIViewController {
         super.viewDidLoad()
         self.car = AppInfo.shared.car
         self.title = "\(car.brand) \(car.model)"
+        self.tabBarItem.image = UIImage(named: "carDataTab")
         carDataCollectionView.delegate = self
         carDataCollectionView.dataSource = self
         carDataCollectionView.reloadData()
