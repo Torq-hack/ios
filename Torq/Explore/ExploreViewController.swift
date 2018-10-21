@@ -25,6 +25,11 @@ class ExploreViewController: UIViewController {
         kolodaView.delegate = self
         reloadCarsFromServer()
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as! ReviewViewController
+        vc.car = sender as? Car
+    }
 
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
@@ -51,6 +56,8 @@ class ExploreViewController: UIViewController {
     }
     
     
+    
+    
     @IBAction func reloadCards(_ sender: Any) {
         reloadCarsFromServer()
     }
@@ -72,12 +79,12 @@ extension ExploreViewController: KolodaViewDelegate {
     }
     
     func koloda(_ koloda: KolodaView, didSelectCardAt index: Int) {
-        
+        performSegue(withIdentifier: "toReviewVC", sender: cars[index])
     }
     
     func koloda(_ koloda: KolodaView, didSwipeCardAt index: Int, in direction: SwipeResultDirection) {
         if direction == .right {
-            
+            performSegue(withIdentifier: "toReviewVC", sender: cars[index])
         }
     }
 }

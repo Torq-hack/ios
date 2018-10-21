@@ -17,6 +17,7 @@ class CarScanViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Escanear Carro"
         cognitiveCameraView.delegate = self
     }
     
