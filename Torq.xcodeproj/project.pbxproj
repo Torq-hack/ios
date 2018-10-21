@@ -17,9 +17,13 @@
 		57018ED0217BFB5900E65DCD /* Activity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57018ECE217BFB5900E65DCD /* Activity.storyboard */; };
 		57018ED2217BFB8300E65DCD /* CarData.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57018ED1217BFB8300E65DCD /* CarData.storyboard */; };
 		57018ED4217BFBA600E65DCD /* Explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57018ED3217BFBA600E65DCD /* Explore.storyboard */; };
+		57018EDC217BFCE400E65DCD /* CarScan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57018EDB217BFCE400E65DCD /* CarScan.storyboard */; };
+		57018EDE217BFD0200E65DCD /* CarScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57018EDD217BFD0200E65DCD /* CarScanViewController.swift */; };
+		71FA1293471ADDE64F6C3E83 /* Pods_Torq.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F76E4F780980BAA054F496 /* Pods_Torq.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33F76E4F780980BAA054F496 /* Pods_Torq.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Torq.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57018EB1217BF8E600E65DCD /* Torq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Torq.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57018EB4217BF8E600E65DCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57018EB9217BF8E600E65DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -32,6 +36,10 @@
 		57018ECF217BFB5900E65DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Torq/Storyboards/Base.lproj/Activity.storyboard; sourceTree = "<group>"; };
 		57018ED1217BFB8300E65DCD /* CarData.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CarData.storyboard; sourceTree = "<group>"; };
 		57018ED3217BFBA600E65DCD /* Explore.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Explore.storyboard; sourceTree = "<group>"; };
+		57018EDB217BFCE400E65DCD /* CarScan.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarScan.storyboard; sourceTree = "<group>"; };
+		57018EDD217BFD0200E65DCD /* CarScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarScanViewController.swift; sourceTree = "<group>"; };
+		70C13534AE9B38F2ADB8CFAB /* Pods-Torq.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Torq.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Torq/Pods-Torq.debug.xcconfig"; sourceTree = "<group>"; };
+		8219967CE7C4D18428BE0FF8 /* Pods-Torq.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Torq.release.xcconfig"; path = "Pods/Target Support Files/Pods-Torq/Pods-Torq.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71FA1293471ADDE64F6C3E83 /* Pods_Torq.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,8 @@
 			children = (
 				57018EB3217BF8E600E65DCD /* Torq */,
 				57018EB2217BF8E600E65DCD /* Products */,
+				65854CE09C8AA4DE4210984C /* Pods */,
+				5D7C819387FD0718F89F3CF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +75,8 @@
 		57018EB3217BF8E600E65DCD /* Torq */ = {
 			isa = PBXGroup;
 			children = (
+				57018EDA217BFC8200E65DCD /* Car Scan */,
+				57018ED8217BFC5C00E65DCD /* Analizer */,
 				57018EB8217BF8E600E65DCD /* Main.storyboard */,
 				57018ED5217BFBCE00E65DCD /* Car Data */,
 				57018ED6217BFBDA00E65DCD /* Activity */,
@@ -111,6 +124,39 @@
 			path = Explore;
 			sourceTree = "<group>";
 		};
+		57018ED8217BFC5C00E65DCD /* Analizer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Analizer;
+			sourceTree = "<group>";
+		};
+		57018EDA217BFC8200E65DCD /* Car Scan */ = {
+			isa = PBXGroup;
+			children = (
+				57018EDB217BFCE400E65DCD /* CarScan.storyboard */,
+				57018EDD217BFD0200E65DCD /* CarScanViewController.swift */,
+			);
+			path = "Car Scan";
+			sourceTree = "<group>";
+		};
+		5D7C819387FD0718F89F3CF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33F76E4F780980BAA054F496 /* Pods_Torq.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65854CE09C8AA4DE4210984C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70C13534AE9B38F2ADB8CFAB /* Pods-Torq.debug.xcconfig */,
+				8219967CE7C4D18428BE0FF8 /* Pods-Torq.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,6 +164,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57018EC3217BF8E700E65DCD /* Build configuration list for PBXNativeTarget "Torq" */;
 			buildPhases = (
+				E2AE908D4C673BFB77684B12 /* [CP] Check Pods Manifest.lock */,
 				57018EAD217BF8E600E65DCD /* Sources */,
 				57018EAE217BF8E600E65DCD /* Frameworks */,
 				57018EAF217BF8E600E65DCD /* Resources */,
@@ -170,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57018EBF217BF8E700E65DCD /* LaunchScreen.storyboard in Resources */,
+				57018EDC217BFCE400E65DCD /* CarScan.storyboard in Resources */,
 				57018EBC217BF8E700E65DCD /* Assets.xcassets in Resources */,
 				57018ED2217BFB8300E65DCD /* CarData.storyboard in Resources */,
 				57018EBA217BF8E600E65DCD /* Main.storyboard in Resources */,
@@ -180,11 +228,33 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E2AE908D4C673BFB77684B12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Torq-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		57018EAD217BF8E600E65DCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57018EDE217BFD0200E65DCD /* CarScanViewController.swift in Sources */,
 				57018ECD217BFAF700E65DCD /* ExploreViewController.swift in Sources */,
 				57018EC9217BFA9E00E65DCD /* ActivityViewController.swift in Sources */,
 				57018EB5217BF8E600E65DCD /* AppDelegate.swift in Sources */,
@@ -340,6 +410,7 @@
 		};
 		57018EC4217BF8E700E65DCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70C13534AE9B38F2ADB8CFAB /* Pods-Torq.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -358,6 +429,7 @@
 		};
 		57018EC5217BF8E700E65DCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8219967CE7C4D18428BE0FF8 /* Pods-Torq.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
